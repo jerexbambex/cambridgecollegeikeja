@@ -39,7 +39,7 @@
 
                     <div class="col-lg-6 col-lg-6">
                         <div class="contact-form-wrap">
-                            <form action="" method="post">
+                            <form>
                                 <div class="contact-form">
                                     <div class="contact-input">
                                         <div class="contact-inner">
