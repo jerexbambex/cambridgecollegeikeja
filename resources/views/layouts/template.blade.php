@@ -68,7 +68,10 @@
                     <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.program.index') }}"><i class="nav-icon i-Library"></i><span class="nav-text">Programs</span></a>
                         <div class="triangle"></div>
                     </li>
-                <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.result.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Past Results</span></a>
+                    <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.result.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Past Results</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.testimonial.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Testimonials</span></a>
                         <div class="triangle"></div>
                     </li>
                     <li class="nav-item"><a class="nav-item-hold" href="/subscribe"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Subscribers</span></a>

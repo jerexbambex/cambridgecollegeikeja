@@ -19,9 +19,9 @@
                 <div class="col-lg-4 col-md-5">
                     <div class="processing-hero-images-wrap wow move-up">
                         <div class="processing-hero-images section-space--mt_80">
-                            {{-- <div class="inner-img-one">
+                            <div class="inner-img-one">
                                 <img class="img-fluid worldRotate" src="/frontend/assets/images/hero/mitech-slider-cybersecurity-global-image.png" alt="">
-                            </div>
+                            </div>{{-- 
                             <div class="inner-img-two">
                                 <img class="img-fluid" src="/frontend/assets/images/hero/pic1.png" alt="">
                             </div> --}}
@@ -463,114 +463,35 @@
                     <div class="testimonial-slider">
                         <div class="swiper-container testimonial-slider__container">
                             <div class="swiper-wrapper testimonial-slider__wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-slider__one wow move-up">
+                                @foreach($testimonials as $testimonial)
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-slider__one wow move-up">
 
-                                        <div class="testimonial-slider--info">
-                                            <div class="testimonial-slider__media">
-                                                <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
+                                            <div class="testimonial-slider--info">
+                                                <div class="testimonial-slider__media">
+                                                    <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
+                                                </div>
+
+                                                <div class="testimonial-slider__author">
+                                                    <div class="testimonial-rating">
+                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-star"></span>
+                                                        <span class="fa fa-star"></span>
+                                                    </div>
+                                                    <div class="author-info">
+                                                        <h6 class="name">{{ $testimonial->name }}</h6><br>
+                                                        <span class="designation">{{ $testimonial->title }}</span>
+                                                    </div>
+                                                </div>
                                             </div>
 
-                                            <div class="testimonial-slider__author">
-                                                <div class="testimonial-rating">
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                </div>
-                                                <div class="author-info">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">Marketing</span>
-                                                </div>
-                                            </div>
+                                            <div class="testimonial-slider__text small">{{ $testimonial->body }}</div>
+
                                         </div>
-
-                                        <div class="testimonial-slider__text">I’ve been working with over 35 Advanced level colleges, but @cambridge is one of the most impressive to me.</div>
-
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-slider__one wow move-up">
-
-                                        <div class="testimonial-slider--info">
-                                            <div class="testimonial-slider__media">
-                                                <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
-                                            </div>
-
-                                            <div class="testimonial-slider__author">
-                                                <div class="testimonial-rating">
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                </div>
-                                                <div class="author-info">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">Marketing</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="testimonial-slider__text">I’ve been working with over 35 advanced level colleges, but @cambridge is one of the most impressive to me.</div>
-
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-slider__one wow move-up">
-
-                                        <div class="testimonial-slider--info">
-                                            <div class="testimonial-slider__media">
-                                                <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
-                                            </div>
-
-                                            <div class="testimonial-slider__author">
-                                                <div class="testimonial-rating">
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                </div>
-                                                <div class="author-info">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">Marketing</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="testimonial-slider__text">I’ve been working with over 35 Advanced level colleges, but @cambridge is one of the most impressive to me.</div>
-
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-slider__one wow move-up">
-
-                                        <div class="testimonial-slider--info">
-                                            <div class="testimonial-slider__media">
-                                                <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
-                                            </div>
-
-                                            <div class="testimonial-slider__author">
-                                                <div class="testimonial-rating">
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                    <span class="fa fa-star"></span>
-                                                </div>
-                                                <div class="author-info">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">Marketing</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="testimonial-slider__text">I’ve been working with over 35 Advanced level colleges, but @Mitech is one of the most impressive to me.</div>
-
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                             <div class="swiper-pagination swiper-pagination-t01 section-space--mt_30"></div>
                         </div>
