@@ -55,8 +55,8 @@
                                                     <span class="fa fa-clock"></span>
                                                 </div>
                                                 <div class="info-content">
-                                                    <h6 class="info-title">8:00AM - 6:00PM</h6>
-                                                    <div class="info-sub-title">Monday to Saturday</div>
+                                                    <h6 class="info-title">8:00AM - 4:00PM</h6>
+                                                    <div class="info-sub-title">Monday to Friday</div>
                                                 </div>
                                             </div>
                                         </div>
