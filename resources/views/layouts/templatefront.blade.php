@@ -73,7 +73,7 @@
                                 <a href="{{ route('frontend.about') }}">About us</a>
                             </li>
                             <li class="">
-                                <a href="#"><span>Why us</span></a>
+                                <a href="{{ route('frontend.why') }}"><span>Why us</span></a>
                             </li>
                             <li class="">
                                 <a href="{{ route('frontend.programs') }}"><span>Programs</span></a>
