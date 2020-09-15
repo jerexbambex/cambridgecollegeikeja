@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5">
+                <div class="col-lg-3 col-md-5">
                     <div class="processing-hero-images-wrap wow move-up">
                         <div class="processing-hero-images section-space--mt_80">
                             <div class="inner-img-one">
@@ -26,7 +26,7 @@
                                 <img class="img-fluid" src="/frontend/assets/images/hero/pic1.png" alt="">
                             </div> --}}
                             <div class="processing-hero-images">
-                                <img class="img-fluid" src="/frontend/assets/images/hero/pic1.png" alt="">
+                                <img class="img-fluid" src="/frontend/assets/images/hero/pic1.png" alt="" width="90%">
                             </div>
                         </div>
                     </div>
