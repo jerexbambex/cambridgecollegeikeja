@@ -16,8 +16,8 @@
                 <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
                     <div class="card-body text-center"><i class="i-Add-User"></i>
                         <div class="content">
-                            <p class="text-muted mt-2 mb-0">Users</p>
-                            <p class="text-primary text-24 line-height-1 mb-2">22</p>
+                            <p class="text-muted mt-2 mb-0">Programs</p>
+                            <p class="text-primary text-24 line-height-1 mb-2">{{ $programs->count() }}</p>
                         </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@
                 <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
                     <div class="card-body text-center"><i class="i-Financial"></i>
                         <div class="content">
-                            <p class="text-muted mt-2 mb-0">Team</p>
-                            <p class="text-primary text-24 line-height-1 mb-2">22</p>
+                            <p class="text-muted mt-2 mb-0">Teams</p>
+                            <p class="text-primary text-24 line-height-1 mb-2">{{ $teams->count() }}</p>
                         </div>
                     </div>
                 </div>
@@ -36,8 +36,8 @@
                 <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
                     <div class="card-body text-center"><i class="i-Checkout-Basket"></i>
                         <div class="content">
-                            <p class="text-muted mt-2 mb-0">Schedules</p>
-                            <p class="text-primary text-24 line-height-1 mb-2">22</p>
+                            <p class="text-muted mt-2 mb-0">Results</p>
+                            <p class="text-primary text-24 line-height-1 mb-2">{{ $results->count() }}</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="card-body text-center"><i class="i-Money-2"></i>
                         <div class="content">
                             <p class="text-muted mt-2 mb-0">Events</p>
-                            <p class="text-primary text-24 line-height-1 mb-2">22</p>
+                            <p class="text-primary text-24 line-height-1 mb-2">{{ $events->count() }}</p>
                         </div>
                     </div>
                 </div>
@@ -57,19 +57,19 @@
             <div class="col-md-3">
                 <div class="card card-icon mb-4">
                     <div class="card-body text-center"><i class="i-Email"></i>
-                        <p class="text-muted mt-2 mb-2">Total messages</p>
-                        <p class="lead text-22 m-0">22</p>
+                        <p class="text-muted mt-2 mb-2">Testimonials</p>
+                        <p class="lead text-22 m-0">{{ $testimonials->count() }}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            {{-- <div class="col-md-3">
                 <div class="card card-icon mb-4">
                     <div class="card-body text-center"><i class="i-Email"></i>
                         <p class="text-muted mt-2 mb-2">Podcasts</p>
                         <p class="lead text-22 m-0">22</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         {{-- <div class="row">
             <div class="col-lg-8 col-md-12">
