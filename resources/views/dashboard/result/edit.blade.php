@@ -166,7 +166,10 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $result->avatar ? $result->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $result->name }}">
+                    <div class="card mb-4 o-hidden">
+                        <div class="avatar text-center p-5">
+                            <img class="" src="{{ $result->avatar ? json_decode($result->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $result->name }}">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">{{ $result->name }}</h5>
                             <p class="card-text">{{ $result->exam_type }} {{ $result->exam_year }}</p>

@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $team->avatar ? $team->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $team->first_name }} {{ $team->last_name }}">
+                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $team->avatar ? json_decode($team->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $team->first_name }} {{ $team->last_name }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $team->first_name }} {{ $team->last_name }}</h5>
                             <p class="card-text">{{ $team->about }}</p>

@@ -38,7 +38,7 @@
                 <div class="col-md-3">
 	                <div class="card card-profile-1 mb-4">
                         <div class="card-body text-center">
-                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $event->avatar ? $event->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
+                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $event->avatar ? json_decode($event->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
                             <h5 class="m-0">{{ $event->name }}</h5>
                             <p class="mt-0">{{ $event->date }}</p>
                             <p>{{ Str::limit($event->description, $limit = 50, $end = '...') }}</p>

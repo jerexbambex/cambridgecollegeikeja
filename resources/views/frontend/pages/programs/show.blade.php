@@ -26,10 +26,10 @@
         <div class="blog-pages-wrapper section-space--ptb_100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 text-center">
                         <!-- Post Feature Start -->
-                        <div class="post-feature blog-thumbnail  wow move-up">
-                            <img class="img-fluid" src="{{ $program->avatar ? $program->avatar : '/frontend/assets/images/logo/logo-cci.png' }}" alt="{{ $program->name }}">
+                        <div class="post-feature blog-thumbnail wow move-up">
+                            <img class="img-fluid" src="{{ $program->avatar ? json_decode($program->avatar)->secure_url : '/frontend/assets/images/logo/logo-cci.png' }}" alt="{{ $program->name }}">
                         </div>
                         <!-- Post Feature End -->
                     </div>

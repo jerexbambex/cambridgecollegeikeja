@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
 use App\Testimonial;
 use Illuminate\Http\Request;
+use JD\Cloudder\Facades\Cloudder;
+use App\Http\Controllers\Controller;
 
 class TestimonialController extends Controller
 {
@@ -48,11 +49,27 @@ class TestimonialController extends Controller
         $attributes['title'] = request()->input('title');
 
         if ($request->hasFile('avatar')) {
-            Cloudder::upload($request->file('avatar'), null, array("quality"=>"auto", "fetch_format"=>"auto"));
+            Cloudder::upload($request->file('avatar'), null, 
+                                        array(
+                                            'folder' => 'cambridgecollege',
+                                            "quality" => 100,
+                                            'gravity' => 'face', 
+                                            "fetch_format"=>"auto",
+                                            'width' => 80,
+                                            'height' => 80,
+                                            "radius"=>"max",
+                                            'crop' => 'thumb'
+                                        ));
             $cloundary_upload = Cloudder::getResult();
+            $results = [
+                'public_id' => $cloundary_upload['public_id'],
+                'url' => $cloundary_upload['url'],
+                'secure_url' => $cloundary_upload['secure_url'],
+                'format' => $cloundary_upload['format'],
+                'bytes' => $cloundary_upload['bytes'],
+            ];
 
-            $attributes['avatar'] = $cloundary_upload['secure_url'];
-            // Team::create($attributes);
+            $attributes['avatar'] = json_encode($results);
         }
 
         Testimonial::create($attributes);
@@ -102,11 +119,32 @@ class TestimonialController extends Controller
         $attributes['title'] = request()->input('title');
 
         if ($request->hasFile('avatar')) {
-            Cloudder::upload($request->file('avatar'), null, array("quality"=>"auto", "fetch_format"=>"auto"));
-            $cloundary_upload = Cloudder::getResult();
+            if ($testimonial->avatar != null) {
+                $publicId = json_decode($testimonial->avatar)->public_id;
+                Cloudder::delete($publicId, array());
+            }
 
-            $attributes['avatar'] = $cloundary_upload['secure_url'];
-            // Team::create($attributes);
+            Cloudder::upload($request->file('avatar'), null, 
+                                        array(
+                                            'folder' => 'cambridgecollege',
+                                            "quality" => 100,
+                                            'gravity' => 'face', 
+                                            "fetch_format"=>"auto",
+                                            'width' => 80,
+                                            'height' => 80,
+                                            "radius"=>"max",
+                                            'crop' => 'thumb'
+                                        ));
+            $cloundary_upload = Cloudder::getResult();
+            $results = [
+                'public_id' => $cloundary_upload['public_id'],
+                'url' => $cloundary_upload['url'],
+                'secure_url' => $cloundary_upload['secure_url'],
+                'format' => $cloundary_upload['format'],
+                'bytes' => $cloundary_upload['bytes'],
+            ];
+
+            $attributes['avatar'] = json_encode($results);
         }
 
         $testimonial->update($attributes);

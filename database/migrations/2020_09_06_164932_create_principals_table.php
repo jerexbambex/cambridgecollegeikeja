@@ -16,7 +16,7 @@ class CreatePrincipalsTable extends Migration
         Schema::create('principals', function (Blueprint $table) {
             $table->id();
             $table->text('body');
-            $table->string('avatar')->nullable();
+            $table->text('avatar')->nullable();
             $table->timestamps();
         });
     }

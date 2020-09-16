@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
 use App\Result;
 use Illuminate\Http\Request;
+use JD\Cloudder\Facades\Cloudder;
+use App\Http\Controllers\Controller;
 
 class ResultController extends Controller
 {
@@ -64,14 +65,26 @@ class ResultController extends Controller
         $attributes['exam_number'] = request()->input('exam_number');
 
         if ($request->hasFile('avatar')) {
-            request()->validate([
-                'avatar'=>'mimes:jpeg,bmp,jpg,png|between:1, 6000',
-            ]);
-
-            Cloudder::upload($request->file('avatar'), null, array("quality"=>"auto", "fetch_format"=>"auto"));
+            Cloudder::upload($request->file('avatar'), null, 
+                                        array(
+                                            'folder' => 'cambridgecollege',
+                                            "quality" => 100,
+                                            'gravity' => 'face', 
+                                            "fetch_format"=>"auto",
+                                            'width' => 80,
+                                            'height' => 80,
+                                            'crop' => 'thumb'
+                                        ));
             $cloundary_upload = Cloudder::getResult();
+            $results = [
+                'public_id' => $cloundary_upload['public_id'],
+                'url' => $cloundary_upload['url'],
+                'secure_url' => $cloundary_upload['secure_url'],
+                'format' => $cloundary_upload['format'],
+                'bytes' => $cloundary_upload['bytes'],
+            ];
 
-            $attributes['avatar'] = $cloundary_upload['secure_url'];
+            $attributes['avatar'] = json_encode($results);
         }
 
 
@@ -142,14 +155,31 @@ class ResultController extends Controller
         $attributes['exam_number'] = request()->input('exam_number');
 
         if ($request->hasFile('avatar')) {
-            request()->validate([
-                'avatar'=>'mimes:jpeg,bmp,jpg,png|between:1, 6000',
-            ]);
+            if ($result->avatar != null) {
+                $publicId = json_decode($result->avatar)->public_id;
+                Cloudder::delete($publicId, array());
+            }
 
-            Cloudder::upload($request->file('avatar'), null, array("quality"=>"auto", "fetch_format"=>"auto"));
+            Cloudder::upload($request->file('avatar'), null, 
+                                        array(
+                                            'folder' => 'cambridgecollege',
+                                            "quality" => 100,
+                                            'gravity' => 'face', 
+                                            "fetch_format"=>"auto",
+                                            'width' => 80,
+                                            'height' => 80,
+                                            'crop' => 'thumb'
+                                        ));
             $cloundary_upload = Cloudder::getResult();
+            $results = [
+                'public_id' => $cloundary_upload['public_id'],
+                'url' => $cloundary_upload['url'],
+                'secure_url' => $cloundary_upload['secure_url'],
+                'format' => $cloundary_upload['format'],
+                'bytes' => $cloundary_upload['bytes'],
+            ];
 
-            $attributes['avatar'] = $cloundary_upload['secure_url'];
+            $attributes['avatar'] = json_encode($results);
         }
 
         $result->update($attributes);

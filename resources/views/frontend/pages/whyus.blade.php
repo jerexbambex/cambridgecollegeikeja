@@ -41,7 +41,7 @@
                         <div class="ht-box-icon style-02 single-svg-icon-box">
                             <div class="icon-box-wrap">
                                 <div class="icon">
-                                    <img class="img-fulid" src="/frontend/assets/images/team/reply-comm.jpg" alt="">
+                                    <img class="img-fulid" src="{{ $result->avatar ? json_decode($result->avatar)->secure_url : '/frontend/assets/images/team/reply-comm.jpg'}}" alt="">
                                 </div>
                                 <div class="content">
                                     <h6 class="headding">{{ $result->name }} </h6>

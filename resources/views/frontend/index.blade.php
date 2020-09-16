@@ -449,16 +449,17 @@
 
 
     <!--====================  testimonial section ====================-->
-    <div class="testimonial-slider-area section-space--ptb_100 row-separators-wrap bg-primary 1separators-space" style="background: #072b83;">
-        <div class="constellation-wrapper">
+    <div class="testimonial-slider-area section-space--ptb_100 slayouts-section-wrap layout-section-bg section-space--pt_80">
+    {{-- <div class="testimonial-slider-area section-space--ptb_100 row-separators-wrap bg-primary 1separators-space" style="background: #072b83;"> --}}
+        {{-- <div class="constellation-wrapper">
             <div id="particles-js"><canvas class="particles-js-canvas-el" width="1903" height="952" style="width: 100%; height: 100%;"></canvas></div>
-        </div>
+        </div> --}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-wrap text-center section-space--mb_40">
-                        <h6 class="section-sub-title mb-20 text-white">Testimonials</h6>
-                        <h3 class="heading text-white">What do people praise about <span class="text-color-secondary"> Cambridge College Ikeja?</span></h3>
+                        <h6 class="section-sub-title mb-20">Testimonials</h6>
+                        <h3 class="heading">What do people praise about <span class="text-primary"> Cambridge College Ikeja?</span></h3>
                     </div>
                     <div class="testimonial-slider">
                         <div class="swiper-container testimonial-slider__container">
@@ -469,7 +470,7 @@
 
                                             <div class="testimonial-slider--info">
                                                 <div class="testimonial-slider__media">
-                                                    <img src="/frontend/assets/images/testimonial/reply-comm.jpg" class="img-fluid" alt="">
+                                                    <img src="{{$testimonial->avatar ? json_decode($testimonial->avatar)->secure_url : '/frontend/assets/images/testimonial/reply-comm.jpg' }}" class="img-fluid" alt="">
                                                 </div>
 
                                                 <div class="testimonial-slider__author">
@@ -487,7 +488,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="testimonial-slider__text small">{{ $testimonial->body }}</div>
+                                            <div class="testimonial-slider__text small" style="font-size: 15px;">{{ $testimonial->body }}</div>
 
                                         </div>
                                     </div>

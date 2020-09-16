@@ -24,7 +24,7 @@ class CreateTeamsTable extends Migration
             $table->string('twitter')->nullable();
             $table->string('linkedin')->nullable();
             $table->string('instagram')->nullable();
-            $table->string('avatar')->default('logo.jira.png');
+            $table->text('avatar')->default('logo.jira.png');
             $table->timestamps();
         });
     }

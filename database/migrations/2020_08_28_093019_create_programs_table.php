@@ -18,7 +18,7 @@ class CreateProgramsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->text('body');
-            $table->string('avatar')->nullable();
+            $table->text('avatar')->nullable();
             $table->timestamps();
         });
     }

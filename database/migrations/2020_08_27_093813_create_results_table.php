@@ -24,7 +24,7 @@ class CreateResultsTable extends Migration
             $table->string('grade_3');
             $table->string('subject_4')->nullable();
             $table->string('grade_4')->nullable();
-            $table->string('avatar')->nullable();
+            $table->text('avatar')->nullable();
             $table->string('exam_number');
             $table->string('exam_year');
             $table->string('exam_type');

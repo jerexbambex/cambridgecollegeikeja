@@ -38,7 +38,7 @@
                 <div class="col-md-3">
 	                <div class="card card-profile-1 mb-4">
                         <div class="card-body text-left">
-                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $result->avatar ? $result->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
+                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $result->avatar ? json_decode($result->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
                             <h5 class="mt-0">{{ $result->name }}</h5>
                             <p class="">{{ $result->exam_type }} {{ $result->exam_year }}</p>
                             <p>{{ $result->exam_number }}</p>

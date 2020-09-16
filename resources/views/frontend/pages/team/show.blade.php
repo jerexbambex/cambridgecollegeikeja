@@ -27,7 +27,7 @@
                 <div class="tab-history-image video-popup mt-30">
                     {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
                         <div class="single-popup-wrap1">
-                            <img class="img-fluid" src="/frontend/assets/images/team/team-member-01-370x455.jpg" alt="">
+                            <img class="img-fluid" src="{{ $leader->avatar ? json_decode($leader->avatar)->secure_url : '/frontend/assets/images/team/team-member-01-370x455.jpg' }}" alt="">
                             {{-- <div class="ht-popup-video video-button">
                                 <div class="video-mark">
                                     <div class="wave-pulse wave-pulse-1"></div>

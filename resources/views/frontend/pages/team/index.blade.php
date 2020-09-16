@@ -65,7 +65,7 @@
                                 <div class="box-large-image__box">
                                     <div class="box-large-image__midea">
                                         <div class="images-midea">
-                                            <img src="frontend/assets/images/team/team-member-01-370x455.jpg" class="img-fluid" alt="">
+                                            <img src="{{ $team->avatar ? json_decode($team->avatar)->secure_url : 'frontend/assets/images/team/team-member-01-370x455.jpg' }}" class="img-fluid" alt="">
 
                                             <div class="button-wrapper">
                                                 <div class="btn tm-button">

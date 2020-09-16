@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $event->avatar ? $event->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $event->name }}">
+                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $event->avatar ? json_decode($event->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $event->name }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $event->name }}</h5>
                             <p class="card-text">{{ $event->description }}</p>

@@ -38,7 +38,7 @@
                 <div class="col-md-3">
 	                <div class="card card-profile-1 mb-4">
                         <div class="card-body text-left">
-                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $testimonial->avatar ? $testimonial->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
+                            <div class="avatar box-shadow-2 mb-3"><img src="{{ $testimonial->avatar ? json_decode($testimonial->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt=""></div>
                             <h5 class="mt-0">{{ $testimonial->name }}</h5>
                             <p class="">{{ $testimonial->title }}</p>
                             <p>{{ $testimonial->body }}</p>

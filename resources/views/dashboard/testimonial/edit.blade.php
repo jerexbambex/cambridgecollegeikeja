@@ -72,7 +72,10 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mb-4 o-hidden"><img class="card-img-top" src="{{ $testimonial->avatar ? $testimonial->avatar : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $testimonial->name }}">
+                    <div class="card mb-4 o-hidden">
+                        <div class="avatar text-center p-5">
+                            <img class="" src="{{ $testimonial->avatar ? json_decode($testimonial->avatar)->secure_url : '/admin/dist-assets/images/faces/Selfie.png' }}" alt="{{ $testimonial->name }}">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">{{ $testimonial->name }}</h5>
                             <p class="card-text small">{{ $testimonial->title }}</p>
