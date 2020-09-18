@@ -49,7 +49,7 @@
                                                 <div class="col-md-3">
                                                     <div class="job-info">
                                                         <h5 class="job-name">{{$event->name}}</h5>
-                                                        <span class="job-time">Full time</span>
+                                                        <span class="job-time">{{ $event->time }}</span>
                                                     </div>
                                                 </div>
 
