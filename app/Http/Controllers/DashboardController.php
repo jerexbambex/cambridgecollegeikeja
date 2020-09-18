@@ -14,7 +14,7 @@ class DashboardController extends Controller
     public function index()
     {
     	$events = Event::all();
-    	$programs =  Program::all();
+    	$programs = Program::all();
     	$results = Result::all();
     	$teams = Team::all();
     	$testimonials = Testimonial::all();
