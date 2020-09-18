@@ -11,6 +11,6 @@ class EventController extends Controller
     {
         $events = Event::all();
 
-        return view('frontend.events');
+        return view('frontend.pages.event', compact('events'));
     }
 }

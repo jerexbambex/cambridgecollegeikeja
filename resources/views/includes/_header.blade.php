@@ -131,8 +131,8 @@
                                             <li class="{{ Request::is('/programs*') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.programs') }}"><span>Programs</span></a>
                                             </li>
-                                            <li class="{{ Request::is('/') ? 'active' : '' }}">
-                                                <a href="#"><span>Events</span></a>
+                                            <li class="{{ Request::is('/events') ? 'active' : '' }}">
+                                                <a href="{{ route('frontend.event') }}"><span>Events</span></a>
                                             </li>
                                             <li class="{{ Request::is('/leadership*') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.leadership') }}"><span>Leadership</span></a>

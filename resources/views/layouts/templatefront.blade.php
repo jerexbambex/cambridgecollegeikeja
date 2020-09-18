@@ -79,7 +79,7 @@
                                 <a href="{{ route('frontend.programs') }}"><span>Programs</span></a>
                             </li>
                             <li class="">
-                                <a href="#">Events</a>
+                                <a href="{{ route('frontend.event') }}">Events</a>
                             </li>
                             <li class="">
                                 <a href="{{ route('frontend.leadership') }}">Leadership</a>

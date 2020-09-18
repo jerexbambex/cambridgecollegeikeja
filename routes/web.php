@@ -14,6 +14,7 @@ Route::get('/welcome', 'IndexController@index')->name('frontend.index');
 
 Route::get('/about-us', 'AboutController@index')->name('frontend.about');
 Route::get('/why-us', 'AboutController@whyUs')->name('frontend.why');
+Route::get('/events', 'EventController@index')->name('frontend.event');
 
 Route::get('/contact-us', 'ContactController@index')->name('frontend.contact');
 
