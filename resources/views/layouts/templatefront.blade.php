@@ -99,6 +99,8 @@
 
 
     @include('includes._scripts')
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-cdf514c9-cbc6-49f0-85a5-514943e911b9"></div>
 </body>
 
 </html>
