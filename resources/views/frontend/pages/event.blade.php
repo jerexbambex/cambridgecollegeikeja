@@ -22,7 +22,7 @@
     </div>
     <!-- breadcrumb-area end -->
 
-    @if($events != null)
+    @if($events->count() >= 1)
 
         <div class="site-wrapper-reveal">
             <!--======== careers-experts Start ==========-->
