@@ -38,22 +38,42 @@
                     </div>
 
                     <div class="col-lg-6 col-lg-6">
+                        @if(Session::has('message'))
+                            <div class="ht-message-box style-success alert alert-success mb-30" role="alert">
+                                <span class="icon"><i class="far fa-check-circle"></i></span> {{ Session::get('message') }}
+                                <button class="close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        @endif
+
                         <div class="contact-form-wrap">
-                            <form>
+                            <form method="POST" action="{{ route('frontend.contact') }}">
+                                @csrf
                                 <div class="contact-form">
                                     <div class="contact-input">
                                         <div class="contact-inner">
-                                            <input name="name" type="text" placeholder="Name *">
+                                            <input name="name" type="text" placeholder="Name *" value="{{ old('name') ? old('name') : '' }}">
+                                            @error('name')
+                                                <span class="small text-danger">{{ $message }}</span>
+                                            @enderror
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="email" type="email" placeholder="Email *">
+                                            <input name="email" type="email" placeholder="Email *" value="{{ old('email') ? old('email') : '' }}">
+                                            @error('email')
+                                                <span class="small text-danger">{{ $message }}</span>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="contact-inner">
-                                        <input name="subject" type="text" placeholder="Subject *">
+                                        <input name="subject" type="text" placeholder="Subject *" value="{{ old('subject') ? old('subject') : '' }}">
+                                        @error('subject')
+                                            <span class="small text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                     <div class="contact-inner contact-message">
-                                        <textarea name="message" placeholder="Please describe what you need."></textarea>
+                                        <textarea name="message" placeholder="Please describe what you need.">{{ old('message') ? old('message') : '' }}</textarea>
+                                        @error('message')
+                                            <span class="small text-danger">{{ $message }}</span>
+                                        @enderror
                                     </div>
                                     <div class="submit-btn mt-20">
                                         <button class="ht-btn ht-btn-md" type="submit">Send message</button>
@@ -77,9 +97,9 @@
                             <h5 class="heading mb-20">Lagos, Nigeria</h5>
                             <ul class="conact-info__list">
                             	<li>64 Adekunle Fajuyi Way G.R.A. Ikeja, Lagos</li>
-                                <li><a href="mailto:contact@aeroland.com" class="hover-style-link">info@cambridgeikeja.com</a></li>
+                                <li><a href="mailto:contact@aeroland.com" class="hover-style-link">info@cambridgecollegeikeja.com</a></li>
                                 <li><a href="tel:+2347055555801" class="hover-style-link text-black font-weight--bold">07055555801, 07055555802, 08030961260</a></li>
-                                <li><a href="https://hasthemes.com/" class="hover-style-link text-color-primary">www.cambridgeikeja.com</a></li>
+                                <li><a href="https://hasthemes.com/" class="hover-style-link text-color-primary">www.cambridgecollegeikeja.com</a></li>
                             </ul>
                         </div>
                     </div>

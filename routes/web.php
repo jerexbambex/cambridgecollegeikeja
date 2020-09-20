@@ -17,6 +17,7 @@ Route::get('/why-us', 'AboutController@whyUs')->name('frontend.why');
 Route::get('/events', 'EventController@index')->name('frontend.event');
 
 Route::get('/contact-us', 'ContactController@index')->name('frontend.contact');
+Route::post('/contact-us', 'ContactController@store')->name('frontend.contact');
 
 Route::get('/programs', 'ProgramController@index')->name('frontend.programs');
 Route::get('/programs/{program}', 'ProgramController@show')->name('frontend.program.show');
@@ -71,6 +72,21 @@ Route::group(['prefix' => 'dashboard'], function () {
 		Route::get('/testimonials/{testimonial}/edit', 'Admin\TestimonialController@edit')->name('admin.testimonial.edit');
 		Route::patch('/testimonials/{testimonial}', 'Admin\TestimonialController@update')->name('admin.testimonial.update');
 		Route::delete('/testimonials/{testimonial}', 'Admin\TestimonialController@delete')->name('admin.testimonial.delete');
+
+		Route::get('/inbox', 'Admin\InboxController@index')->name('admin.inbox.index');
+		Route::get('/inbox/{contact}', 'Admin\InboxController@show')->name('admin.inbox.show');
+		Route::delete('/inbox/{contact}', 'Admin\InboxController@destroy')->name('admin.inbox.delete');
+
+		Route::get('/speech', 'Admin\SpeechController@index')->name('admin.speech.index');
+
+		Route::get('/speech/director/{director}/edit', 'Admin\DirectorController@edit')->name('admin.speech.director.edit');
+		Route::patch('/speech/director/{director}', 'Admin\DirectorController@update')->name('admin.speech.director.update');
+
+		Route::get('/speech/principal/{principal}/edit', 'Admin\PrincipalController@edit')->name('admin.speech.principal.edit');
+		Route::patch('/speech/principal/{principal}', 'Admin\PrincipalController@update')->name('admin.speech.principal.update');
+
+		Route::get('/speech/coordinator/{coordinator}/edit', 'Admin\CoordinatorController@edit')->name('admin.speech.coordinator.edit');
+		Route::patch('/speech/coordinator/{coordinator}', 'Admin\CoordinatorController@update')->name('admin.speech.coordinator.update');
 	});
 });
 

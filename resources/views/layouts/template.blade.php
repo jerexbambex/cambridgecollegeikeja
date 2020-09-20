@@ -74,10 +74,10 @@
                     <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.testimonial.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Testimonials</span></a>
                         <div class="triangle"></div>
                     </li>
-                    <li class="nav-item"><a class="nav-item-hold" href="/subscribe"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Subscribers</span></a>
+                    <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.speech.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Speeches</span></a>
                         <div class="triangle"></div>
                     </li>
-                    <li class="nav-item"><a class="nav-item-hold" href="/contact"><i class="nav-icon i-Email"></i><span class="nav-text">Inbox</span></a>
+                    <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.inbox.index') }}"><i class="nav-icon i-Email"></i><span class="nav-text">Inbox</span></a>
                         <div class="triangle"></div>
                     </li>
                 </ul>

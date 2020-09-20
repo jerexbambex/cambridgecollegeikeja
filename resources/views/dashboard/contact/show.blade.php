@@ -5,7 +5,7 @@
         <div class="breadcrumb">
             <h1>Inbox</h1>
             <ul>
-                <li><a href="/contact">back</a></li>
+                <li><a href="{{ route('admin.inbox.index') }}">back</a></li>
                 {{-- <li>Add</li> --}}
             </ul>
         </div>
@@ -26,7 +26,7 @@
                                     <i class="icon-regular mr-1 i-Left-3"></i> Inbox
                                 </a>
                                 <div class="d-flex">
-                                    <form method="POST" action="{{ route('contact.destroy', $contact->path()) }}">
+                                    <form method="POST" action="{{ route('admin.inbox.delete', $contact->path()) }}">
                                         @method('delete')
                                         @csrf
                                       {{--   <a class="link-icon mr-3 py-3" href="/contact/">
@@ -53,7 +53,7 @@
                             <div class="inbox-details perfect-scrollbar rtl-ps-none ps" data-suppress-scroll-x="true">
                                 <div class="row no-gutters">
                                     <div class="col-xs-12">
-                                        <p class="m-0">From: {{ $contact->fullname }}</p>
+                                        <p class="m-0">From: {{ $contact->name }}</p>
                                         <p class="m-0">Email: {{ $contact->email }}</p>
                                         <p class="text-12 text-muted">{{ $contact->created_at->diffForHumans() }}</p>
                                     </div>

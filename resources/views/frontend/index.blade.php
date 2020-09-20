@@ -297,11 +297,7 @@
                                     <div class="col-lg-6">
                                         <div class="tab-content-inner  mt-30">
                                             <div class="text mb-30">
-                                                {!! nl2br('Cambridge College was created in response to the need for a Sixth Form School that would meet internationally acceptable standards. The need for the school became necessary with the scrapping of Higher School Certificate( HSC) Colleges.
-
-                                                In the last twenty years of our establishment the success of our students in the Cambridge International Assessment Examinations; A Level, AS, O Level, IGCSE Exams has been tremendous. Students of Cambridge College have distinguished themselves worldwide. 
-                                                
-                                                They are moulded in readiness for degree programmes in tertiary institutions. Moreso as most of our students complete their Senior Secondary Certificate Exams (SSCE) between the ages of fourteen and sixteen years.') !!}
+                                                {!! nl2br($director->body) !!}
                                             </div>
                                         </div>
                                     </div>
@@ -335,18 +331,7 @@
                                     <div class="col-lg-6">
                                         <div class="tab-content-inner  mt-30">
                                             <div class="text mb-30">
-                                                {!! nl2br('Cambridge College, GRA Ikeja Lagos is one of Nigeria’s leading schools.
-                                                It is a co-educational, Day/Boarding, Secondary and Advanced Level College leading to award of Certificates in the following:
-
-                                                * CIE A/L,UFP
-                                                * IGCSE, IELTS, TOEFL, SAT, WAEC, NECO, BECE, CHECK POINT
-
-                                                At Cambridge College, our vision is to raise scholars who will be academically sound at a level that conforms to internationally acceptable standards.
-
-                                                Our results over the years have been very impressive and we have churned out several graduates who are now professionals in their chosen fields and are worthy ambassadors.
-
-                                                We inculcate in our students skills acquisition with academic activities in order to raise balanced and total products.
-                                                You are welcome to visit the school so that you can be a part of our academic excellence.') !!}
+                                                {!! nl2br($principal->body) !!}
                                             </div>
                                         </div>
                                     </div>
@@ -380,15 +365,7 @@
                                     <div class="col-lg-6">
                                         <div class="tab-content-inner  mt-30">
                                             <div class="text mb-30">
-                                                {{!! nl2br('Cambridge College Ikeja is a top Sixth Form College, that uses 21st Century research – led teaching techniques and facilities as well as strong sense of purpose to broaden its students’ perspective.
-
-                                                It is a co-educational, Day/Boarding, Secondary and Advanced Level College leading to award of Certificates in the following:
-                                                At Cambridge College, we are a renewed A–Level result oriented school, with many initiatives led by the experienced and dedicated teachers in their various field of studies each driven by the belief that you can only make the future if you are willing and obedient. We are the closest A–Level College to both the International and domestic airports as we are situated in GRA at Ikeja the capital city of the state.
-                                                Cambridge College is full of exceptional students who believe they can change things – and they can. We are more than two decades in existence and have produced over 70 first class graduates in different fields of studies in IVY league universities around the globe. Together, our approach, location and purpose can give you a broader picture of quality education obtainable here.
-                                                
-                                                The qualities include those that universities value highly with 90% of Cambridge students both A – Level and Degree Foundation Programmes securing admission into universities at the completion of their programmes. These qualities have set Cambridge College apart as one of the most successful Sixth Form Colleges in Nigeria.
-                                                
-                                                A healthy social life is a massive part of being a student, so we make sure students balance the academic rigor with socials. Away from home, finding safe and convenient accommodation cannot be over emphasized. We provide our students with standard comfortable hostel accommodation with adequate functional facilities.') !!}}
+                                                {!! nl2br($coordinator->body) !!}
                                             </div>
                                         </div>
                                     </div>
