@@ -110,6 +110,41 @@
     @include('includes._scripts')
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-cdf514c9-cbc6-49f0-85a5-514943e911b9"></div>
+    
+  <script nonce="bjvqXdaHDW6uEWt1zlaL9Q==">
+//<![CDATA[
+    if (typeof Cookiebot !== 'undefined' && Cookiebot.consent && Cookiebot.consent.marketing) {
+      enableGoogleTagManager();
+    } else {
+      window.addEventListener('CookiebotOnAccept', function (e) {
+        if (Cookiebot.consent.marketing) {
+          enableGoogleTagManager();
+        }
+      }, false);
+    }
+
+  function enableGoogleTagManager() {
+    var gtmId = 'googlea0942bb3e4dbe9cf';
+    // Google Tag Manager Tracking Code
+    (function(w,d,s,l,i) {
+      w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',gtmId);
+
+
+    window.addEventListener('load', function() {
+      window.dataLayer.push({
+        event: 'pinterestReady'
+      });
+    });
+  }
+
+//]]>
+</script>
 </body>
 
 </html>
