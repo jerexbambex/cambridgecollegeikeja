@@ -2,7 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta name="robots" content="noindex" />
+    <meta name="robots" content="all" />
     <meta name="google-site-verification" content="CQv22AZODJOBN1gpO5rBMsRue1-UIJYU5tkY4AkxCTs" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
