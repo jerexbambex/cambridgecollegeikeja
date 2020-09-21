@@ -10,7 +10,7 @@
                 <div class="col-lg-8 col-md-7">
                     <div class="processing-hero-text wow move-up">
                         <h6>At Cambridge College Ikeja </h6>
-                        <h3 class="text-white font-weight--reguler mb-15">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to raise world-class products</h3>
+                        <h1 class="text-white font-weight--reguler mb-15" style="font-size: 40px;">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h1>
                         <div class="hero-button mt-30">
                             <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
                         </div>
@@ -83,7 +83,7 @@
                     <!-- section-title-wrap Start -->
                     <div class="section-title-wrap text-center section-space--mb_30">
                         <h3 class="heading">Our <span class="text-color-primary"> Programmes</span></h3><br>
-                        <h6 class="text">With well currated contents and curricullum, we excel as the best in this field.</h6>
+                        <h6 class="text">With well currated A Level contents and curricullum, we excel as the best in this field.</h6>
                     </div>
                     <!-- section-title-wrap Start -->
                 </div>
