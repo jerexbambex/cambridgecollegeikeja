@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Form;
 use App\Program;
 use Illuminate\Http\Request;
 
@@ -10,8 +11,9 @@ class ProgramController extends Controller
    	public function index()
     {
         $programs = Program::all();
+        $form = Form::first();
 
-        return view('frontend.pages.programs.index', compact('programs'));
+        return view('frontend.pages.programs.index', compact('programs', 'form'));
     }
 
     /**

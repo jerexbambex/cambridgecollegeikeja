@@ -34,7 +34,7 @@
                             <p>Admission is on now!!!</p>
                             <h3 class="heading">Get a copy of the <span class="text-color-primary"> Admission form.</span></h3>
                             <div class="button mt-30">
-                                <a href="#" class="ht-btn ht-btn-md">Download now (3MB)</a>
+                                <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a>
                             </div>
                         </div>
                     </div>

@@ -87,6 +87,12 @@ Route::group(['prefix' => 'dashboard'], function () {
 
 		Route::get('/speech/coordinator/{coordinator}/edit', 'Admin\CoordinatorController@edit')->name('admin.speech.coordinator.edit');
 		Route::patch('/speech/coordinator/{coordinator}', 'Admin\CoordinatorController@update')->name('admin.speech.coordinator.update');
+
+		Route::get('/admission-form', 'Admin\FormController@index')->name('admin.form.index');
+		Route::get('/admission-form/create', 'Admin\FormController@create')->name('admin.form.create');
+		Route::post('/admission-form', 'Admin\FormController@store')->name('admin.form.store');
+		Route::get('/admission-form/{form}/edit', 'Admin\FormController@edit')->name('admin.form.edit');
+		Route::patch('/admission-form/{form}', 'Admin\FormController@update')->name('admin.form.update');
 	});
 });
 

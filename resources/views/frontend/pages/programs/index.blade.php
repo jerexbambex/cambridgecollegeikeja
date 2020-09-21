@@ -39,7 +39,8 @@
 	                                <a href="{{ route('frontend.program.show', $program->path()) }}" class="ht-box-images style-04">
 	                                    <div class="image-box-wrap">
 	                                        <div class="box-image">
-	                                            <img class="img-fulid" src="{{ $program->avatar ? json_decode($program->avatar)->secure_url : '/frontend/assets/images/icons/mitech-box-image-style-05-image-01-60x60.png'}}" alt="">
+	                                            {{-- <img class="img-fulid" src="{{ $program->avatar ? json_decode($program->avatar)->secure_url : '/frontend/assets/images/icons/mitech-box-image-style-05-image-01-60x60.png'}}" alt=""> --}}
+                                                <img class="img-fulid" src="/frontend/assets/images/icons/mitech-box-image-style-05-image-01-60x60.png" alt="">
 	                                        </div>
 	                                        <div class="content">
 	                                            <h5 class="heading">{{ $program->name }}</h5>
@@ -82,7 +83,7 @@
                         <div class="cybersecurity-about-text">
                             <div class="text">The need for the college became necessary with the scraping of Higher School Certificate (HSC) Colleges.</div>
                             <div class="button-group-wrap">
-                                <a href="#" class="ht-btn ht-btn-md mr-md-3 mb-20">Download a free admission form</a>
+                                <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md mr-md-3 mb-20">Download a free admission form</a>
                                 <a href="#" class="ht-btn ht-btn-md ht-btn--solid">Live chat with a consultant</a>
                             </div>
                         </div>
