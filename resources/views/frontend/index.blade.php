@@ -9,7 +9,7 @@
                 <!--baseline-->
                 <div class="col-lg-8 col-md-7">
                     <div class="processing-hero-text wow move-up">
-                        <h6>At Cambridge College Ikeja </h6>
+                        <h6>At Cambridge College Ikeja A Levels</h6>
                         <h1 class="text-white font-weight--reguler mb-15" style="font-size: 40px;">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h1>
                         <div class="hero-button mt-30">
                             <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
