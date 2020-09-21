@@ -2,13 +2,22 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <meta name="google-site-verification" content="CQv22AZODJOBN1gpO5rBMsRue1-UIJYU5tkY4AkxCTs" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cambridge College Ikeja</title>
+    <title>Cambridge College Ikeja- A-level college in Lagos Nigeria</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     @include('includes._head')
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cambridge College Ikeja" />
+    <meta name="description" content="Cambridge College Ikeja, A-Levels in Lagos, Nigeria. The Advanced Level in Lagos, Nigeria" />
+    <meta name="keywords" content="A-Levels, A-Level, A Level, A-Levels in Nigeria, A-Levels in Lagos, Advanced Level, Advanced Levels in Nigeria, Advanced Levels in Lagos" />
+    <meta name="author" content="Oluwatosin" />
+    <meta name="email" content="info@cambridgecollegeikeja.com" />
+    <meta name="website" content="https://cambridgecollegeikeja.com/" />
+    {{-- <meta name="Version" content="v2.2" /> --}}
 
 </head>
 
