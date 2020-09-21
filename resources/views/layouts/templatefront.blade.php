@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <meta name="robots" content="noindex" />
     <meta name="google-site-verification" content="CQv22AZODJOBN1gpO5rBMsRue1-UIJYU5tkY4AkxCTs" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -110,7 +111,7 @@
     @include('includes._scripts')
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-cdf514c9-cbc6-49f0-85a5-514943e911b9"></div>
-    
+
   <script nonce="bjvqXdaHDW6uEWt1zlaL9Q==">
 //<![CDATA[
     if (typeof Cookiebot !== 'undefined' && Cookiebot.consent && Cookiebot.consent.marketing) {
