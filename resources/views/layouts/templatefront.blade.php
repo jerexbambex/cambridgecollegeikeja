@@ -18,7 +18,6 @@
     <meta name="author" content="Oluwatosin" />
     <meta name="email" content="info@cambridgecollegeikeja.com" />
     <meta name="website" content="https://cambridgecollegeikeja.com/" />
-    <meta name="google-site-verification" content="ItLSYYvSrN-bXESBYjXc73H1xaY9Ssf6a5fQi6VskSc" />
     {{-- <meta name="Version" content="v2.2" /> --}}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178737623-1"></script>
