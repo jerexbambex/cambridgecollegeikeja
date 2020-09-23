@@ -19,6 +19,15 @@
     <meta name="email" content="info@cambridgecollegeikeja.com" />
     <meta name="website" content="https://cambridgecollegeikeja.com/" />
     {{-- <meta name="Version" content="v2.2" /> --}}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178737623-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178737623-1');
+</script>
 
 </head>
 
