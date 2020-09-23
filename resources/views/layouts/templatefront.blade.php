@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cambridge College Ikeja" />
     <meta name="description" content="Cambridge College Ikeja, A-Levels in Lagos, Nigeria. The Advanced Level in Lagos, Nigeria" />
-    <meta name="keywords" content="A-Levels, A-Level, A Level, A-Levels in Nigeria, A-Levels in Lagos, Advanced Level, Advanced Levels in Nigeria, Advanced Levels in Lagos" />
+    <meta name="keywords" content="A-Levels, A-Level, A Level, A-Levels in Nigeria, A-Levels in Lagos, Advanced Level, Advanced Levels in Nigeria, Advanced Levels in Lagos, Best Schools in Nigeria, Admissions, Cambridge Lagos, Cambridge Ikeja" />
     <meta name="author" content="Oluwatosin" />
     <meta name="email" content="info@cambridgecollegeikeja.com" />
     <meta name="website" content="https://cambridgecollegeikeja.com/" />
