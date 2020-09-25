@@ -35,6 +35,7 @@
                                 <textarea class="form-control" name="body" rows="20"></textarea>
                             </div> --}}
                             {{-- <p class="col-md-8 mx-auto">{!! nl2br(str_replace(" ", "&nbsp;", $about->body)) !!}</p> --}}
+                            <h4>{{ $about->headline }}</h4>
                             <p class="col-md-8 mx-auto">{!!nl2br( $about->body )!!}</p>
                             <a href="{{ route('admin.about.edit', $about->path()) }}" class="btn btn-primary rounded">Edit</a>
                         </div>

@@ -27,14 +27,27 @@
 							             @endif
                             <h2>Full Editor</h2>
                             <p>
-								Update the about us content
+								              Update the about us content
                             </p>
                             <form method="POST" action="{{ route('admin.about.update', $about->path()) }}">
                             	@method('PATCH')
                             	@csrf
-	                            <div class="mx-auto col-md-8">
-	                                <textarea class="form-control summernote" name="body" rows="20">{{ $about->body }}</textarea>
-	                            </div>
+                              <div class="row my-5">
+                                <div class="mx-auto col-md-8">
+                                  <label for="headline">
+                                    <h5>Headline</h5>
+                                  </label>
+                                  <input type="text" class="form-control" name="headline" value="{{ $about->headline }}">
+                                </div>
+                              </div>
+	                            <div class="row my-5">
+                                <div class="mx-auto col-md-8">
+                                  <label for="headline">
+                                    <h5>Body</h5>
+                                  </label>
+                                  <textarea class="form-control summernote" name="body" rows="20">{{ $about->body }}</textarea>
+                                </div> 
+                              </div>
 	                            <button type="submit" class="btn btn-primary rounded">Update</button>
                             </form>
                         </div>
