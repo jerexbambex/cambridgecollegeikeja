@@ -34,7 +34,7 @@
                                                 </div>
                                                 <div class="info-content">
                                                     <h6 class="info-title">+2347 05 555 5801</h6>
-                                                    <div class="info-sub-title">info@cambridgeikeja.com</div>
+                                                    <div class="info-sub-title">info@cambridgecollegeikeja.com</div>
                                                 </div>
                                             </div>
                                         </div>
