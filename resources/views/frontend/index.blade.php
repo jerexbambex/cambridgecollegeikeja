@@ -201,7 +201,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-6">
                     <div class="conact-us-wrap-one">
-                        <h3 class="heading text-white">Obtain more information by making a contact with our information center. </h3>
+                        <h3 class="heading text-white">Obtain more information about A Levels in Nigeria. </h3>
 
                         <div class="sub-heading text-white">We’re available for 24 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.</div>
 
@@ -244,8 +244,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                        <h6 class="section-sub-title mb-20">Discover our college</h6>
-                        <h3 class="section-title">We have these to say <span class="text-color-primary">out of much!</span> </h3>
+                        <h6 class="section-sub-title mb-20">Discover Cambridge College Ikeja</h6>
+                        <h3 class="section-title">We have these to say <span class="text-color-primary">from the best A level School in Nigeria!</span> </h3>
                     </div>
                 </div>
             </div>
