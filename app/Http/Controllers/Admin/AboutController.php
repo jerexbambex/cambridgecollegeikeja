@@ -73,6 +73,7 @@ class AboutController extends Controller
     {
         $attributes = request()->validate([
             'body' => 'required',
+            'headline' => 'required',
         ]);
 
         $about->update($attributes);
