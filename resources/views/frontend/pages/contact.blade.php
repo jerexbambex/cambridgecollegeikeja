@@ -97,9 +97,9 @@
                             <h5 class="heading mb-20">Lagos, Nigeria</h5>
                             <ul class="conact-info__list">
                             	<li>64 Adekunle Fajuyi Way G.R.A. Ikeja, Lagos</li>
-                                <li><a href="mailto:contact@aeroland.com" class="hover-style-link">info@cambridgecollegeikeja.com</a></li>
+                                <li><a href="mailto:info@cambridgecollegeikeja.com" class="hover-style-link">info@cambridgecollegeikeja.com</a></li>
                                 <li><a href="tel:+2347055555801" class="hover-style-link text-black font-weight--bold">07055555801, 07055555802, 08030961260</a></li>
-                                <li><a href="https://hasthemes.com/" class="hover-style-link text-color-primary">www.cambridgecollegeikeja.com</a></li>
+                                <li><a href="https://cambridgecollegeikeja.com/" class="hover-style-link text-color-primary">www.cambridgecollegeikeja.com</a></li>
                             </ul>
                         </div>
                     </div>

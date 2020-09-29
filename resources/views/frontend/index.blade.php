@@ -225,7 +225,7 @@
                                 <span class="fal fa-envelope"></span>
                             </div>
                             <h6 class="heading font-weight--reguler">Send Us a Message</h6>
-                            <h5 class="call-us"><a href="mailto:info@cambridgecollege.com">info@cambridgecollege.com</a></h5>
+                            <h5 class="call-us"><a href="mailto:info@cambridgecollegeikeja.com">info@cambridgecollegeikeja.com</a></h5>
                             <div class="contact-us-button mt-20">
                                 <a href="{{ route('frontend.contact') }}" class="btn btn--secondary">Contact us</a>
                             </div>
