@@ -214,7 +214,11 @@
                                 <span class="fal fa-phone"></span>
                             </div>
                             <h6 class="heading font-weight--reguler">Reach out now!</h6>
-                            <h2 class="call-us"><a href="tel:+2347055555801">+2347 05 555 5801</a></h2>
+                            <h5 class="call-us">
+                                <a href="tel:+2347055555801">+2347 05 555 5801</a>, 
+                                <a href="tel:+2347055555802">+2347 05 555 5802</a>, 
+                                <a href="tel:+2348030961260"> +2348 03 096 1260,</a>
+                            </h5>
                             <div class="contact-us-button mt-20">
                                 {{-- <a href="#" class="btn btn--secondary">Contact us</a> --}}
                             </div>
@@ -436,7 +440,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-wrap text-center section-space--mb_40">
-                        <h6 class="section-sub-title mb-20">Testimonials</h6>
+                        <h6 class="section-sub-title mb-20">Alumni Testimonials</h6>
                         <h3 class="heading">What do people praise about <span class="text-primary"> Cambridge College Ikeja?</span></h3>
                     </div>
                     <div class="testimonial-slider">
