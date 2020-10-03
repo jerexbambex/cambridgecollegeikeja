@@ -7,7 +7,7 @@
                         <!-- brand logo -->
                         <div class="header__logo">
                             <a href="{{ route('frontend.index') }}">
-                                <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid my-3" alt="">
+                                <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid my-3" alt="" style="width: 200px;">
                             </a>
                         </div>
 

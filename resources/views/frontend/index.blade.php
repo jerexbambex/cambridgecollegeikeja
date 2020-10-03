@@ -83,8 +83,8 @@
                 <div class="col-lg-12">
                     <!-- section-title-wrap Start -->
                     <div class="section-title-wrap text-center section-space--mb_30">
-                        <h3 class="heading">Our <span class="text-color-primary"> Programmes</span></h3><br>
-                        <h6 class="text">With well currated A Level contents and curricullum, we excel as the best in this field.</h6>
+                        <h3 class="heading">Our <span class="text-color-primary"> Programs</span></h3><br>
+                        <h6 class="text">With a well curated curriculum, our A Level programme is the best in Nigeria.</h6>
                     </div>
                     <!-- section-title-wrap Start -->
                 </div>
@@ -136,9 +136,9 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been triumphing <br> for over <span class="text-color-primary"> 20 year</span> as the <br> Top A Level school <br> in Lagos and Nigeria as a whole.</h3>
+                            <h3 class="heading">We’ve been successful <br> for over <span class="text-color-primary"> 20 years</span>and we are known as the <br> Top A Levels school <br> in Lagos and Nigeria as a whole.</h3>
 
-                                <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can change things – and they can. We are more than two decades in existence and have produced over 70 first class graduates in different fields of studies in IVY league universities around the globe.</p>
+                                <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
                                 <div class="inner-button-box section-space--mt_60">
                                     <a href="#" class="ht-btn ht-btn-md">Find out more</a>

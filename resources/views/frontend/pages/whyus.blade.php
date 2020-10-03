@@ -29,7 +29,7 @@
                 <div class="col-lg-12">
                     <!-- section-title-wrap Start -->
                     <div class="section-title-wrap text-center section-space--mb_30">
-                        <h3 class="heading mb-20">Consistency over the years, <br> we provide <span class="text-color-primary">truly world class products.</span> </h3>
+                        <h3 class="heading mb-20">Consistency over the years, <br> we provide <span class="text-color-primary">truly world class scholars.</span> </h3>
                         <p class="title-dec-text">It is rare to find a student with A-Level experience dropping out of the university. The reason is because the A-Level programme equips students with what it takes to cope with university education in terms of attending lectures, library usage, tutorials, learning techniques, time management to mention a few.</p>
                     </div>
                     <!-- section-title-wrap Start -->

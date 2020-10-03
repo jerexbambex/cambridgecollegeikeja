@@ -7,7 +7,7 @@
                             <div class="footer-widget__logo mb-30">
                                 <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid" alt="">
                             </div>
-                            <ul class="footer-widget__list">
+                            <ul class="footer-widget__list" style="font-size: 18px;">
                                 <li>64 Adekunle Fajuyi Way G.R.A. Ikeja, Lagos</li>
                                 <li><a href="mailto:info@cambridgecollegeikeja.com" class="hover-style-link">info@cambridgecollegeikeja.com</a></li>
                                 <li><a href="tel:+2347055555801" class="hover-style-link text-black font-weight--bold">07055555801, 07055555802, 08030961260</a></li>
@@ -26,18 +26,18 @@
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Quick links</h6>
-                            <ul class="footer-widget__list">
+                            <ul class="footer-widget__list" style="font-size: 18px;">
                                 <li><a href="{{ route('frontend.programs') }}" class="hover-style-link">Programs</a></li>
-                                <li><a href="#" class="hover-style-link">Terms of Use</a></li>
-                                <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
+                                {{-- <li><a href="#" class="hover-style-link">Terms of Use</a></li> --}}
+                                {{-- <li><a href="#" class="hover-style-link">Privacy Policy</a></li> --}}
                                 <li><a href="{{ route('frontend.contact') }}" class="hover-style-link">Where to Find Us</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Support</h6>
-                            <ul class="footer-widget__list">
+                            <ul class="footer-widget__list" style="font-size: 18px;">
                                 {{-- <li><a href="#" class="hover-style-link">Forum Support</a></li> --}}
-                                <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
+                                {{-- <li><a href="#" class="hover-style-link">Help & FAQ</a></li> --}}
                                 <li><a href="{{ route('frontend.contact') }}" class="hover-style-link">Contact Us</a></li>
                                 {{-- <li><a href="#" class="hover-style-link">Pricing and plans</a></li> --}}
                                 {{-- <li><a href="#" class="hover-style-link">Cookies Policy</a></li> --}}
@@ -68,7 +68,7 @@
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://facebook.com/" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://facebook.com/CambridgeikejaSixthForm" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-facebook-f link-icon"></i>
                                     </a>
                                 </li>

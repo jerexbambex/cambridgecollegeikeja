@@ -77,6 +77,9 @@
                     <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.speech.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Speeches</span></a>
                         <div class="triangle"></div>
                     </li>
+                    <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.form.index') }}"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Form</span></a>
+                        <div class="triangle"></div>
+                    </li>
                     <li class="nav-item"><a class="nav-item-hold" href="{{ route('admin.inbox.index') }}"><i class="nav-icon i-Email"></i><span class="nav-text">Inbox</span></a>
                         <div class="triangle"></div>
                     </li>
