@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Whyus;
 use Illuminate\Http\Request;
 
 class WhyusController extends Controller
@@ -14,7 +15,9 @@ class WhyusController extends Controller
      */
     public function index()
     {
-        //
+        $about = Whyus::first();
+
+        return view('dashboard.why.index', compact('about'));
     }
 
     /**
