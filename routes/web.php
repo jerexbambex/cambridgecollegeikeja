@@ -37,9 +37,9 @@ Route::group(['prefix' => 'dashboard'], function () {
 		Route::get('/about/{about}/edit', 'Admin\AboutController@edit')->name('admin.about.edit');
 		Route::patch('/about/{about}', 'Admin\AboutController@update')->name('admin.about.update');
 
-		Route::get('/why-us', 'Admin\WhyusController@index')->name('admin.why.index');
-		Route::get('/why-us/{whyus}/edit', 'Admin\WhyusController@edit')->name('admin.why.edit');
-		Route::patch('/why-us/{whyus}', 'Admin\WhyusController@update')->name('admin.why.update');
+		Route::get('/why-us', 'Admin\WhyusController@index')->name('admin.whyus.index');
+		Route::get('/why-us/{whyus}/edit', 'Admin\WhyusController@edit')->name('admin.whyus.edit');
+		Route::patch('/why-us/{whyus}', 'Admin\WhyusController@update')->name('admin.whyus.update');
 
 		Route::get('/team', 'Admin\TeamController@index')->name('admin.team.index');
 		Route::get('/team/create', 'Admin\TeamController@create')->name('admin.team.create');
