@@ -58,9 +58,9 @@ class WhyusController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Whyus $whyus)
     {
-        //
+        return view('dashboard.why.edit', compact('whyus'));
     }
 
     /**
@@ -70,9 +70,13 @@ class WhyusController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Whyus $whyus)
     {
-        //
+        $whyus->body = request()->input('body');
+        $whyus->update();
+
+        request()->session()->flash('message', 'Information updted successfully!');
+        return back();
     }
 
     /**

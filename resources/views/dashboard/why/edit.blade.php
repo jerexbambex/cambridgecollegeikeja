@@ -29,7 +29,7 @@
                             <p>
 								              Update the about us content
                             </p>
-                            <form method="POST" action="{{ route('admin.whyus.update', $about->path()) }}">
+                            <form method="POST" action="{{ route('admin.whyus.update', $whyus->path()) }}">
                             	@method('PATCH')
                             	@csrf
                               <div class="row my-5">
@@ -37,7 +37,7 @@
                                   <label for="headline">
                                     <h5>Headline</h5>
                                   </label>
-                                  {{-- <input type="text" class="form-control" name="headline" value="{{ $about->headline }}"> --}}
+                                  {{-- <input type="text" class="form-control" name="headline" value="{{ $whyus->headline }}"> --}}
                                 </div>
                               </div>
 	                            <div class="row my-5">
@@ -45,7 +45,7 @@
                                   <label for="headline">
                                     <h5>Body</h5>
                                   </label>
-                                  <textarea class="form-control summernote" name="body" rows="20">{{ $about->body }}</textarea>
+                                  <textarea class="form-control summernote" name="body" rows="20">{{ $whyus->body }}</textarea>
                                 </div> 
                               </div>
 	                            <button type="submit" class="btn btn-primary rounded">Update</button>
