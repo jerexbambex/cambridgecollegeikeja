@@ -30,12 +30,12 @@
                     <!-- section-title-wrap Start -->
                     <div class="section-title-wrap text-center section-space--mb_30">
                         <h3 class="heading mb-20">Consistency over the years, <br> we provide <span class="text-color-primary">truly world class scholars.</span> </h3>
-                        <p class="title-dec-text">It is rare to find a student with A-Level experience dropping out of the university. The reason is because the A-Level programme equips students with what it takes to cope with university education in terms of attending lectures, library usage, tutorials, learning techniques, time management to mention a few.</p>
+                        <p class="title-dec-text" style="font-size: 18px;">It is rare to find a student with A-Level experience dropping out of the university. The reason is because the A-Level programme equips students with what it takes to cope with university education in terms of attending lectures, library usage, tutorials, learning techniques, time management to mention a few.</p>
                     </div>
                     <!-- section-title-wrap Start -->
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 @foreach($results as $result)
                     <div class="col-lg-4 col-md-6">
                         <div class="ht-box-icon style-02 single-svg-icon-box">
@@ -58,6 +58,16 @@
                         </div>
                     </div>
                 @endforeach     
+                
+            </div> --}}
+        </div>
+    </div>
+    <div class="section-space--ptb_100">
+        <div class="container">
+            <div class="row px-3 justify-content-center">
+                <div class="col-8">
+                    {!! nl2br($whyus->body) !!}
+                </div>
             </div>
         </div>
     </div>

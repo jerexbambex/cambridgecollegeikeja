@@ -90,6 +90,7 @@
             toolbar: [
               ['style', ['style']],
               ['font', ['bold', 'underline', 'clear']],
+              ['fontsize', ['fontsize']],
               ['color', ['color']],
               ['para', ['ul', 'ol', 'paragraph']],
               ['table', ['table']],

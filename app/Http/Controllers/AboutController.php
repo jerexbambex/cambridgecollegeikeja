@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\About;
 use App\Form;
 use App\Result;
+use App\Whyus;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller
@@ -21,7 +22,8 @@ class AboutController extends Controller
     {
         $results = Result::all();
         $form = Form::first();
+        $whyus = Whyus::first();
 
-        return view('frontend.pages.whyus', compact('results', 'form'));
+        return view('frontend.pages.whyus', compact('results', 'form', 'whyus'));
     }
 }

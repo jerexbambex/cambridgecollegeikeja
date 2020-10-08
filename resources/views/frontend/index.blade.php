@@ -10,7 +10,7 @@
                 <div class="col-lg-8 col-md-7">
                     <div class="processing-hero-text wow move-up">
                         <h6>Cambridge College Ikeja</h6>
-                        <h6>The Best A Levels College in Nigeria</h6>
+                        <h6>The Best A Level College in Nigeria</h6>
                         <h1 class="text-white font-weight--reguler mb-15" style="font-size: 40px;">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h1>
                         <div class="hero-button mt-30">
                             <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
@@ -136,12 +136,12 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been successful <br> for over <span class="text-color-primary"> 20 years</span>and we are known as the <br> Top A Levels school <br> in Lagos and Nigeria as a whole.</h3>
+                            <h3 class="heading">We’ve been successful <br> for over <span class="text-color-primary"> 20 years</span> and we are known as the <br> Top A Levels school <br> in Lagos and Nigeria as a whole.</h3>
 
                                 <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
                                 <div class="inner-button-box section-space--mt_60">
-                                    <a href="#" class="ht-btn ht-btn-md">Find out more</a>
+                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md">Find out more</a>
                                 </div>
                         </div>
                     </div>

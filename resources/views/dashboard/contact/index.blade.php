@@ -31,17 +31,19 @@
                                     <th scope="col">From</th>
                                     <th scope="col">Subject</th>
                                     <th scope="col">Email</th>
+                                    <th scope="col">Date</th>
                                     <th scope="col">Status</th>
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach($mails as $mail)
-                                    <tr>
+                                    <tr class="{{ $mail->status ? '' : 'font-weight-bold text-dark' }}">
                                         <th scope="row"><a href="{{ route('admin.inbox.show', $mail->path()) }}">{{ Str::limit($mail->name, 1) }}</a></th>
                                         <td><a href="{{ route('admin.inbox.show', $mail->path()) }}">{{ $mail->name }}</a></td>
                                         <td><a href="{{ route('admin.inbox.show', $mail->path()) }}">{{ $mail->subject }}</a></td>
                                         <td><a href="{{ route('admin.inbox.show', $mail->path()) }}">{{ $mail->email }}</a></td>
+                                        <td><a href="{{ route('admin.inbox.show', $mail->path()) }}">{{ $mail->created_at->diffForHumans() }}</a></td>
                                         <td>
                                             @if(!$mail->status)
                                                 <a href="{{ route('admin.inbox.show', $mail->path()) }}">

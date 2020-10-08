@@ -67,7 +67,7 @@
                                                 </div>
                                                 <div class="info-content">
                                                     <h6 class="info-title">Online 24/7</h6>
-                                                    <div class="info-sub-title">07055555802, 08030961260</div>
+                                                    <div class="info-sub-title">07055555802, 07055555801</div>
                                                 </div>
                                             </div>
                                         </div>

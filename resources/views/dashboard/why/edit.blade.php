@@ -9,8 +9,8 @@
         <div class="breadcrumb">
             <h1>Edit</h1>
             <ul>
-            <li><a href="{{ route('admin.whyus.index') }}">About us</a></li>
-                <li>Add</li>
+            <li><a href="{{ route('admin.whyus.index') }}">Why us</a></li>
+                <li>Edit</li>
             </ul>
         </div>
         <div class="separator-breadcrumb border-top"></div>
@@ -68,6 +68,7 @@
             toolbar: [
               ['style', ['style']],
               ['font', ['bold', 'underline', 'clear']],
+              ['fontsize', ['fontsize']],
               ['color', ['color']],
               ['para', ['ul', 'ol', 'paragraph']],
               ['table', ['table']],
