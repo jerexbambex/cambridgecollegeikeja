@@ -110,7 +110,7 @@
         </div>
 
         <div class="header-bottom-wrap border-top d-md-block d-none header-sticky">
-            <div class="container-fluid mt-0" style="border-top: 8px solid #072b83;"></div>
+            <div class="container-fluid mt-0" style="border-top: 4px solid #072b83;"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

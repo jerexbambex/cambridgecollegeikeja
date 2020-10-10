@@ -60,12 +60,8 @@
                 @endforeach     
                 
             </div> --}}
-        </div>
-    </div>
-    <div class="section-space--ptb_100">
-        <div class="container">
             <div class="row px-3 justify-content-center">
-                <div class="col-8">
+                <div class="col-md-12">
                     {!! nl2br($whyus->body) !!}
                 </div>
             </div>
