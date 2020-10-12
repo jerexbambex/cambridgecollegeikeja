@@ -72,7 +72,7 @@
 
             <div class="our-experience-wrapper">
                 <div class="container">
-                    <div class="row">
+                    <div class="row flex-row">
                         <div class="col-lg-5">
                             <div class="section-title small-mb__40 tablet-mb__40">
                                 {{-- <h6 class="section-sub-title mb-20">Our company</h6> --}}
