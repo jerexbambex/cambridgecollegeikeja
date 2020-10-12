@@ -77,7 +77,7 @@
                             <div class="section-title small-mb__40 tablet-mb__40">
                                 {{-- <h6 class="section-sub-title mb-20">Our company</h6> --}}
                                 <h3 class="heading">Our <span class="text-color-primary">History</span></h3>
-                                <p class="text mt-20">{!! Str::limit(nl2br($about->body), 600) !!}</p>
+                                <p class="text mt-20">{!! Str::limit(nl2br($about->body), 700) !!}</p>
 
                                 <div class="sider-title-button-box mt-30">
                                     <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Find out more</a>
