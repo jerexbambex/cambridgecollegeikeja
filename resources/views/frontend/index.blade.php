@@ -68,6 +68,34 @@
     </div> --}}
     <!--============ Cybersecurity Hero End ============-->
 
+        <div class="section-space--ptb_100 infotechno-section-bg-01">
+
+            <div class="our-experience-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="section-title small-mb__40 tablet-mb__40">
+                                {{-- <h6 class="section-sub-title mb-20">Our company</h6> --}}
+                                <h3 class="heading">Our <span class="text-color-primary">History</span></h3>
+                                <p class="text mt-20">{!! Str::limit(nl2br($about->body), 600) !!}</p>
+
+                                <div class="sider-title-button-box mt-30">
+                                    <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Find out more</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 align-content-center">
+                            {{-- <div class="ht-list style-auto-numbered-02"> --}}
+                                <img src="/frontend/assets/images/cambridge/history.png" class="img-fluid">
+                            {{-- </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <!--===========  feature-images-wrapper  Start =============-->
     <div class="feature-images-wrapper section-space--ptb_100 row-separators-wrap">

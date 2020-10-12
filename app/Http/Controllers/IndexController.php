@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Coordinator;
+use App\About;
+use App\Program;
 use App\Director;
 use App\Principal;
-use App\Program;
+use App\Coordinator;
 use App\Testimonial;
 use Illuminate\Http\Request;
 
@@ -18,7 +19,8 @@ class IndexController extends Controller
         $coordinator = Coordinator::first();
     	$programs = Program::all();
     	$testimonials = Testimonial::all();
+    	$about = About::first();
 
-    	return view('frontend.index', compact('programs', 'testimonials', 'director', 'principal', 'coordinator'));
+    	return view('frontend.index', compact('programs', 'testimonials', 'director', 'principal', 'coordinator', 'about'));
     }
 }

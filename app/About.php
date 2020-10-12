@@ -12,4 +12,13 @@ class About extends Model
     {
         return $this->id;
     }
+
+    public function slug()
+    {
+    	$word = nl2br($this->body);
+
+    	$truncated = Str::limit($word, 60);
+
+    	return $truncated;
+    }
 }
