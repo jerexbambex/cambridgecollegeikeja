@@ -68,7 +68,7 @@
     </div> --}}
     <!--============ Cybersecurity Hero End ============-->
 
-        {{-- <div class="section-space--ptb_100 infotechno-section-bg-01"> --}}
+        <div class="section-space--ptb_100 infotechno-section-bg-01">
 
             <div class="our-experience-wrapper">
                 <div class="container">
@@ -87,14 +87,14 @@
                         </div>
 
                         <div class="col-lg-5 align-content-center">
-                            {{-- <div class="ht-list style-auto-numbered-02"> --}}
+                            <div class="ht-list style-auto-numbered-02">
                                 <img src="/frontend/assets/images/cambridge/history.png" class="img-fluid">
-                            {{-- </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        {{-- </div> --}}
+        </div>
 
 
     <!--===========  feature-images-wrapper  Start =============-->
