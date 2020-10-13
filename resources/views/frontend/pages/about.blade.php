@@ -17,6 +17,7 @@
 	
 	<div class="section-space--ptb_100">
 	    <div class="container">
+            <h3 class="heading">About Us</h3>
 	    	<div class="row px-3">
 	    		{!! nl2br($about->body) !!}
 	    	</div>
