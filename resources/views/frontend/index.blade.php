@@ -20,9 +20,9 @@
                 <div class="col-lg-3 col-md-5">
                     <div class="processing-hero-images-wrap wow move-up">
                         <div class="processing-hero-images section-space--mt_80">
-                            <div class="inner-img-one">
+                            {{-- <div class="inner-img-one">
                                 <img class="img-fluid worldRotate" src="/frontend/assets/images/hero/mitech-slider-cybersecurity-global-image.png" alt="">
-                            </div>{{-- 
+                            </div> --}}{{-- 
                             <div class="inner-img-two">
                                 <img class="img-fluid" src="/frontend/assets/images/hero/pic1.png" alt="">
                             </div> --}}
