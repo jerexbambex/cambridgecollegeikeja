@@ -77,13 +77,13 @@
                                 <!-- Header Social Networks -->
                                 <div class="header-social-networks style-icons">
                                     <div class="inner">
-                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="Twitter" href="https://twitter.com/" data-hover="Twitter" target="_blank">
+                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="@Cambridgeikeja" href="https://twitter.com/Cambridgeikeja" data-hover="Twitter" target="_blank">
                                             <i class="social-icon fab fa-twitter"></i>
                                         </a>
-                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="Facebook" href="https://facebook.com/" data-hover="Facebook" target="_blank">
+                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="@CambridgeikejaSixthForm" href="https://facebook.com/CambridgeikejaSixthForm" data-hover="Facebook" target="_blank">
                                             <i class="social-icon fab fa-facebook-f"></i>
                                         </a>
-                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="Instagram" href="https://instagram.com/" data-hover="Instagram" target="_blank">
+                                        <a class=" social-link hint--bounce hint--bottom-left" aria-label="@cambridgecollegeikeja" href="https://instagram.com/cambridgecollegeikeja" data-hover="Instagram" target="_blank">
                                             <i class="social-icon fab fa-instagram"></i>
                                         </a>
                                         <a class=" social-link hint--bounce hint--bottom-left" aria-label="Linkedin" href="https://linkedin.com/" data-hover="Linkedin" target="_blank">

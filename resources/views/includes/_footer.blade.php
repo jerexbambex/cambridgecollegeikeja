@@ -67,17 +67,17 @@
                             <ul class="list ht-social-networks solid-rounded-icon">
 
                                 <li class="item">
-                                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://twitter.com/Cambridgeikeja" target="_blank" aria-label="@Cambridgeikeja" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-twitter link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://facebook.com/CambridgeikejaSixthForm" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://facebook.com/CambridgeikejaSixthForm" target="_blank" aria-label="@CambridgeikejaSixthForm" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-facebook-f link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="https://instagram.com/cambridgecollegeikeja" target="_blank" aria-label="@cambridgecollegeikeja" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-instagram link-icon"></i>
                                     </a>
                                 </li>

@@ -165,7 +165,7 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been successful <br> for over <span class="text-color-primary"> 20 years</span> and we are known as the <br> Top A Levels school <br> in Lagos and Nigeria as a whole.</h3>
+                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> and we are known as the <br> Top Sixth Form school <br> in Lagos and Nigeria as a whole.</h3>
 
                                 <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
@@ -222,54 +222,6 @@
     </div>
 
     <!--===========  Our Company History Start  End =============-->
-
-
-    <!--====================  Contact us Section Start ====================-->
-    <div class="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-lg-6">
-                    <div class="conact-us-wrap-one">
-                        <h3 class="heading text-white">Obtain more information about A Levels in Nigeria. </h3>
-
-                        <div class="sub-heading text-white">We’re available for 24 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.</div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-lg-6">
-                        <div class="contact-info-two text-center">
-                            <div class="icon">
-                                <span class="fal fa-phone"></span>
-                            </div>
-                            <h6 class="heading font-weight--reguler">Reach out now!</h6>
-                            <h5 class="call-us">
-                                <a href="tel:+2347055555801">+2347 05 555 5801</a>, 
-                                <a href="tel:+2347055555802">+2347 05 555 5802</a>, 
-                                <a href="tel:+2348030961260"> +2348 03 096 1260,</a>
-                            </h5>
-                            <div class="contact-us-button mt-20">
-                                {{-- <a href="#" class="btn btn--secondary">Contact us</a> --}}
-                            </div>
-                        </div>
-						
-						<div class="contact-info-two text-center">
-                            <div class="icon">
-                                <span class="fal fa-envelope"></span>
-                            </div>
-                            <h6 class="heading font-weight--reguler">Send Us a Message</h6>
-                            <h5 class="call-us"><a href="mailto:info@cambridgecollegeikeja.com">info@cambridgecollegeikeja.com</a></h5>
-                            <div class="contact-us-button mt-20">
-                                <a href="{{ route('frontend.contact') }}" class="btn btn--secondary">Contact us</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--====================  Conact us Section End  ====================-->
-    </div>
 
     <!--===========  feature-large-images-wrapper  Start =============-->
     <div class="tabs-wrapper  section-space--ptb_100">
@@ -513,5 +465,58 @@
         </div>
     </div>
     <!--====================  End of testimonial section  ====================-->
+
+
+    <!--====================  Contact us Section Start ====================-->
+    <div class="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-lg-6">
+                    <div class="conact-us-wrap-one">
+                        <h3 class="heading text-white">Obtain more information about A Levels in Nigeria. </h3>
+
+                        <div class="sub-heading text-white">We’re available for 24 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.</div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-lg-6">
+                        <div class="contact-info-two text-center">
+                            <div class="icon">
+                                <span class="fal fa-phone"></span>
+                            </div>
+                            <h6 class="heading font-weight--reguler">Reach out now!</h6>
+                            <h5 class="call-us">
+                                <a href="tel:+2347055555801">+2347 05 555 5801</a>, 
+                                <a href="tel:+2347055555802">+2347 05 555 5802</a>, 
+                                <a href="tel:+2348030961260"> +2348 03 096 1260,</a>
+                            </h5>
+                            <div class="contact-us-button mt-20">
+                                {{-- <a href="#" class="btn btn--secondary">Contact us</a> --}}
+                            </div>
+                        </div>
+						
+						<div class="contact-info-two text-center">
+                            <div class="icon">
+                                <span class="fal fa-envelope"></span>
+                            </div>
+                            <h6 class="heading font-weight--reguler">Send Us a Message</h6>
+                            <h5 class="call-us"><a href="mailto:info@cambridgecollegeikeja.com">info@cambridgecollegeikeja.com</a></h5>
+                            <div class="contact-us-button mt-20">
+                                <a href="{{ route('frontend.contact') }}" class="btn btn--secondary">Contact us</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Conact us Section End  ====================-->
+    </div>
+
+
+
+
+
 
 @endsection
