@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="layouts-section-text">
-                            <h3 class="heading"><span class="text-color-primary">Alas!</span> No Events at the moment</h3>
+                            <h3 class="heading"><span class="text-color-primary"></span> We will provide event updates as soon as the pandemic situation improves and we can safely hold our proposed events</h3>
                             <p class="text mt-30" style="font-size: 22px;">While you are waiting you can check out our <a href="{{ route('frontend.programs') }}">programs</a>.</p>
 
                             <div class="sider-title-button-box mt-30">

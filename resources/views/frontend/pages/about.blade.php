@@ -17,9 +17,16 @@
 	
 	<div class="section-space--ptb_100">
 	    <div class="container">
-            <h3 class="heading">About Us</h3>
-	    	<div class="row px-3">
-	    		{!! nl2br($about->body) !!}
+            {{-- <h3 class="heading">About Us</h3> --}}
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h3 class="heading">Our <span class="text-color-primary">History</span></h3>
+                </div>
+            </div>
+	    	<div class="row px-3 mt-3 justify-content-center">
+	    		<div class="col-md-10">
+                    {!! nl2br($about->body) !!}         
+                </div>
 	    	</div>
 	    </div>
 	</div>
@@ -33,9 +40,11 @@
                         <div class="resources-inner">
                             <h6 class="sub-title mb-20">Resources</h6>
                             <p>Admission is on now!!!</p>
-                            <h3 class="heading">Get a copy of the <span class="text-color-primary"> Admission form.</span></h3>
+
+                            <h3 class="heading">Contact us to get a copy of the <span class="text-color-primary"> Admission form.</span></h3>
                             <div class="button mt-30">
-                                <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a>
+                                {{-- <a href="{{ route('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a> --}}
+                                {{-- <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a> --}}
                             </div>
                         </div>
                     </div>
@@ -43,8 +52,12 @@
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="resources-right-box">
                         <div class="resources-right-inner text-center">
+                            <div class="button mt-30">
+                                <a href="{{ route('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a>
+                                {{-- <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a> --}}
+                            </div>
                             <div class="resources-images">
-                                <img class="img-fluid" src="/frontend/assets/images/banners/admission.jpg" alt="">
+                                {{-- <img class="img-fluid" src="/frontend/assets/images/banners/admission.jpg" alt=""> --}}
                             </div>
                         </div>
                     </div>

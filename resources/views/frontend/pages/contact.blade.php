@@ -29,10 +29,10 @@
                     <div class="col-lg-6 col-lg-6">
                         <div class="conact-us-wrap-one mb-30">
                             <h3 class="heading">
-                            	To make requests for <br>further information, <br><span class="text-color-primary">contact us</span> via our social channels.
+                            	To requests <br>further information, <br><span class="text-color-primary">contact us</span> using the form below or give us a call. You may also contact at our campus location. 
                             </h3>
                             <div class="sub-heading">
-                            	We just need a couple of hours! <br> No more than 2 working days since receiving your issue ticket.
+                            	{{-- We just need a couple of hours! <br> No more than 2 working days since receiving your issue ticket. --}}
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
         </div>
 
         <!--========== Call to Action Area Start ============-->
-        <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_two">
+        {{-- <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_two">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-8 col-lg-7">
@@ -182,7 +182,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!--========== Call to Action Area End ============-->
 
 

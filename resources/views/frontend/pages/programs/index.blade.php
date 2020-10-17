@@ -7,8 +7,8 @@
             <div class="row">
                 <div class="col-lg-8 ml-auto mr-auto">
                     <div class="about-banner-content text-center">
-                        <h1 class="mb-15 text-white">Programs</h1>
-                        <h5 class="font-weight--normal text-white">List of all programs offered at Cambridge College Ikeja.</h5>
+                        <h1 class="mb-15 text-white">Programmes</h1>
+                        <h5 class="font-weight--normal text-white">List of all programmes offered at Cambridge College Ikeja.</h5>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                 <div class="col-lg-12">
                     <!-- section-title-wrap Start -->
                     <div class="section-title-wrap text-center section-space--mb_30">
-                        <h3 class="heading">Preparing for your success, <br> we provide <span class="text-color-primary"> truly prominent Advanced Levels Education.</span></h3>
+                        <h3 class="heading"> To prepare you for success, <br> we provide <span class="text-color-primary"> truly outstanding Advanced Level Education.</span></h3>
                     </div>
                     <!-- section-title-wrap Start -->
                 </div>

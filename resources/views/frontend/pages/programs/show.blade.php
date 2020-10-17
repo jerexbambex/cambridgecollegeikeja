@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- breadcrumb-area start -->
-    <div class="breadcrumb-area">
+{{--     <div class="breadcrumb-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- breadcrumb-area end -->
 
         <!--====================  Blog Area Start ====================-->
@@ -42,7 +42,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories text-center">
-                                        <a href="#"> Full details </a>
+                                        {{-- <a href="#"> Full details </a> --}}
                                     </div>
 
                                     <h3 class="post-title text-center">
@@ -56,8 +56,8 @@
                                             </a>
                                         </div> --}}
                                         <div class="post-date">
-                                            <span class="far fa-calendar meta-icon"></span>
-                                            January 14, 2019
+                                            {{-- <span class="far fa-calendar meta-icon"></span> --}}
+                                            {{-- January 14, 2019 --}}
                                         </div>
                                         {{-- <div class="post-view">
                                             <span class="meta-icon far fa-eye"></span>
