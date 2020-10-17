@@ -13,6 +13,6 @@ class IndexController extends Controller
     	$programs = Program::all();
     	$about = About::first();
 
-    	return view('frontend.index', compact('programs', 'testimonials', 'about'));
+    	return view('frontend.index', compact('programs', 'about'));
     }
 }
