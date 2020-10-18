@@ -83,7 +83,7 @@
                                     <form action="#" class="search-form-top-active">
                                         <div class="search-icon" id="search-overlay-trigger">
                                             <a href="javascript:void(0)">
-                                                <i class="fa fa-search"></i>
+                                                {{-- <i class="fa fa-search"></i> --}}
                                             </a>
                                         </div>
                                     </form>
