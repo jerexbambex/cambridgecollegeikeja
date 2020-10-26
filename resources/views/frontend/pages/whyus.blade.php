@@ -70,11 +70,7 @@
 
 
     <!--====================  testimonial section ====================-->
-    <div class="testimonial-slider-area section-space--ptb_100 slayouts-section-wrap section-space--pt_80" style="background-color: #f6f2ed;">
-    {{-- <div class="testimonial-slider-area section-space--ptb_100 row-separators-wrap bg-primary 1separators-space" style="background: #072b83;"> --}}
-        {{-- <div class="constellation-wrapper">
-            <div id="particles-js"><canvas class="particles-js-canvas-el" width="1903" height="952" style="width: 100%; height: 100%;"></canvas></div>
-        </div> --}}
+    <div class=" section-space--ptb_100 slayouts-section-wrap section-space--pt_80" style="background-color: #f6f2ed;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -82,43 +78,36 @@
                         <h6 class="section-sub-title mb-20">Alumni Testimonials</h6>
                         <h3 class="heading">What do people praise about <span class="text-primary"> Cambridge College Ikeja?</span></h3>
                     </div>
-                    <div class="testimonial-slider">
-                        <div class="swiper-container testimonial-slider__container">
-                            <div class="swiper-wrapper testimonial-slider__wrapper">
-                                @foreach($testimonials as $testimonial)
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-slider__one wow move-up">
+                </div>
+                @foreach($testimonials as $testimonial)
+                    <div class="swiper-slide">
+                        <div class="testimonial-slider__one wow move-up">
 
-                                            <div class="testimonial-slider--info">
-                                                <div class="testimonial-slider__media">
-                                                    <img src="{{$testimonial->avatar ? json_decode($testimonial->avatar)->secure_url : '/frontend/assets/images/testimonial/reply-comm.jpg' }}" class="img-fluid" alt="">
-                                                </div>
+                            <div class="testimonial-slider--info">
+                                <div class="testimonial-slider__media">
+                                    <img src="{{$testimonial->avatar ? json_decode($testimonial->avatar)->secure_url : '/frontend/assets/images/testimonial/reply-comm.jpg' }}" class="img-fluid" alt="">
+                                </div>
 
-                                                <div class="testimonial-slider__author">
-                                                    <div class="testimonial-rating">
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                    </div>
-                                                    <div class="author-info">
-                                                        <h6 class="name">{{ $testimonial->name }}</h6><br>
-                                                        <span class="designation">{{ $testimonial->title }}</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="testimonial-slider__text small" style="font-size: 15px;">{{ $testimonial->body }}</div>
-
-                                        </div>
+                                <div class="testimonial-slider__author">
+                                    <div class="testimonial-rating">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                     </div>
-                                @endforeach
+                                    <div class="author-info">
+                                        <h6 class="name">{{ $testimonial->name }}</h6><br>
+                                        <span class="designation">{{ $testimonial->title }}</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="swiper-pagination swiper-pagination-t01 section-space--mt_30"></div>
+
+                            <div class="testimonial-slider__text small" style="font-size: 15px;">{{ $testimonial->body }}</div>
+
                         </div>
                     </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

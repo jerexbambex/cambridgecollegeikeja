@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('styles')
-	<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -65,6 +65,7 @@
         $(document).ready(function() {
           $('.summernote').summernote({
           	height: 500,
+            // lineHeights: ['0.2', '0.3', '0.4', '0.5', '0.6', '0.8', '1.0', '1.2', '1.4', '1.5', '2.0', '3.0'],
             toolbar: [
               ['style', ['style']],
               ['font', ['bold', 'underline', 'clear']],
