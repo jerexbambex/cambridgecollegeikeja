@@ -101,6 +101,9 @@
                                 <a href="{{ route('frontend.event') }}">Events</a>
                             </li>
                             <li class="">
+                                <a href="{{ route('frontend.gallery') }}">Gallery</a>
+                            </li>
+                            <li class="">
                                 <a href="{{ route('frontend.leadership') }}">Leadership</a>
                             </li>
                             <li class="">

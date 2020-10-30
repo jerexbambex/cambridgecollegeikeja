@@ -9,7 +9,7 @@
         <div class="breadcrumb">
             <h1>Add slider</h1>
             <ul>
-                <li><a href="/slider">Sliders</a></li>
+                <li><a href="{{ route('admin.gallery.index') }}">Sliders</a></li>
                 <li>Add</li>
             </ul>
         </div>
@@ -25,10 +25,16 @@
 							    {{-- <div class="alert alert-info">{{ Session::get('message1') }}</div> --}}
 							@endif
                             <div class="card-title mb-3">Add new image</div>
-                            <form method="POST" action="{{ route('slider.store') }}" enctype="multipart/form-data">
+                            <form method="POST" action="{{ route('admin.gallery.store') }}" enctype="multipart/form-data">
                             	@csrf
                                 <div class="row">
-                                    <div class="col-md-12 form-group mb-3">
+                                    <div class="col-md-6 form-group mb-3">
+                                        <label for="title">Title</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" name="title">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 form-group mb-3">
                                         <label for="picker1">Image</label>
                                         <div class="input-group mb-3">
 										    <input class="form-control" type="file" name="avatar">

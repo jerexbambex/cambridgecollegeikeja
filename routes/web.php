@@ -25,6 +25,8 @@ Route::get('/programs/{program}', 'ProgramController@show')->name('frontend.prog
 Route::get('/leadership', 'LeadershipController@index')->name('frontend.leadership');
 Route::get('/leadership/{leader}', 'LeadershipController@show')->name('frontend.leadership.show');
 
+Route::get('/gallery', 'IndexController@gallery')->name('frontend.gallery');
+
 
 /**
  * Admin Dashboard
@@ -97,6 +99,16 @@ Route::group(['prefix' => 'dashboard'], function () {
 		Route::post('/admission-form', 'Admin\FormController@store')->name('admin.form.store');
 		Route::get('/admission-form/{form}/edit', 'Admin\FormController@edit')->name('admin.form.edit');
 		Route::patch('/admission-form/{form}', 'Admin\FormController@update')->name('admin.form.update');
+
+		/*
+		Gallerry 
+		*/
+		Route::get('/gallery', 'Admin\GalleryController@index')->name('admin.gallery.index');
+		Route::get('/gallery/create', 'Admin\GalleryController@create')->name('admin.gallery.create');
+		Route::post('/gallery/', 'Admin\GalleryController@store')->name('admin.gallery.store');
+		Route::get('/gallery/{gallery}/edit', 'Admin\GalleryController@edit')->name('admin.gallery.edit');
+		Route::patch('/gallery/{gallery}', 'Admin\GalleryController@update')->name('admin.gallery.update');
+		Route::delete('/gallery/{gallery}', 'Admin\GalleryController@destroy')->name('admin.gallery.destroy');
 	});
 });
 

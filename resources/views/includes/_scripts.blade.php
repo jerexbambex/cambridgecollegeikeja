@@ -16,10 +16,10 @@
         <script src="/frontend/assets/js/plugins/lightgallery.min.js"></script>
 
         <!-- Waypoints JS -->
-        <script src="/frontend/assets/js/plugins/waypoints.min.js"></script>
+        {{-- <script src="/frontend/assets/js/plugins/waypoints.min.js"></script> --}}
 
         <!-- Counter down JS -->
-        <script src="/frontend/assets/js/plugins/countdown.min.js"></script>
+        {{-- <script src="/frontend/assets/js/plugins/countdown.min.js"></script> --}}
 
         <!-- Isotope JS -->
         <script src="/frontend/assets/js/plugins/isotope.min.js"></script>
@@ -54,7 +54,7 @@
         <!-- Some plugins JS -->
         <script src="/frontend/assets/js/plugins/some-plugins.js"></script>
 
-        <script src="/frontend/assets/js/plugins/particles.js"></script>
+        {{-- <script src="/frontend/assets/js/plugins/particles.js"></script> --}}
 
 
         <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from avobe) -->

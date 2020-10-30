@@ -44,7 +44,7 @@
                             <!-- brand logo -->
                             <div class="header__logo">
                                 <a href="{{ route('frontend.index') }}">
-                                    <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid my-3" alt="" style="width: 350px;">
+                                    <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid my-3" alt="" style="width: 200px;">
                                 </a>
                             </div>
 
@@ -58,7 +58,7 @@
                                                 <a href="{{ route('frontend.index') }}"><span>Home</span></a>
                                             </li>
                                             <li class="{{ Request::is('/about') ? 'active' : '' }}">
-                                                <a href="{{ route('frontend.about') }}"><span>About us</span></a>
+                                                <a href="{{ route('frontend.about') }}"><span>About</span></a>
                                             </li>
                                             <li class="{{ Request::is('/why-us') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.why') }}"><span>Why us</span></a>
@@ -69,11 +69,14 @@
                                             <li class="{{ Request::is('/events') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.event') }}"><span>Events</span></a>
                                             </li>
+                                            <li class="{{ Request::is('/gallery') ? 'active' : '' }}">
+                                                <a href="{{ route('frontend.gallery') }}"><span>Gallery</span></a>
+                                            </li>
                                             <li class="{{ Request::is('/leadership*') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.leadership') }}"><span>Leadership</span></a>
                                             </li>
                                             <li class="{{ Request::is('/contact-us') ? 'active' : '' }}">
-                                                <a href="{{ route('frontend.contact') }}"><span>Contact Us</span></a>
+                                                <a href="{{ route('frontend.contact') }}"><span>Contact</span></a>
                                             </li>
                                         </ul>
                                     </nav>
