@@ -66,7 +66,7 @@
                                 <a href="https://instagram.com/{{ $leader->instagram }}" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
                             </li>
                             <li class="item">
-                                <a href="https://linkedin.com/{{ $leader->linkedin }}" target="_blank" class="social-link"> <i class="fab fa-linkedin social-link-icon"></i> </a>
+                                <a href="https://linkedin.com/in/{{ $leader->linkedin }}" target="_blank" class="social-link"> <i class="fab fa-linkedin social-link-icon"></i> </a>
                             </li>
                             {{-- <li class="item">
                                 <a href="#" target="_blank" class="social-link"> <i class="fab fa-pinterest social-link-icon"></i> </a>
