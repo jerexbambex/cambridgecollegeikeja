@@ -5,7 +5,7 @@
                     <div class="row footer-widget-wrapper">
                         <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                             <div class="footer-widget__logo mb-30">
-                                <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid" alt="">
+                                <img src="/frontend/assets/images/logo/logo-cci.png" class="" alt="" style="height: 80px; width: 200px;">
                             </div>
                             <ul class="footer-widget__list" style="font-size: 18px;">
                                 <li>64 Adekunle Fajuyi Way G.R.A. Ikeja, Lagos</li>
