@@ -44,7 +44,7 @@
                             <!-- brand logo -->
                             <div class="header__logo py-1">
                                 <a href="{{ route('frontend.index') }}">
-                                    <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid" alt="" style="width: 200px;">
+                                    <img src="/frontend/assets/images/logo/logo-cci.png" class="img-fluid" alt="">
                                 </a>
                             </div>
 

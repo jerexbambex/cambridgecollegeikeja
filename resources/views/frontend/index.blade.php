@@ -1,18 +1,43 @@
 @extends('layouts.templatefront')
 
 @section('content')
-
+        <!--============ Infotechno Hero Start ============-->
+        <div class="processing-hero processing-hero-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!--baseline-->
+                    <div class="col-lg-8 col-md-7">
+                        <div class="processing-hero-text wow move-up">
+                            <h6 class="text-white mt-5">Cambridge College Ikeja</h6>
+                            <h6 class="text-white">The Best A Level College in Nigeria</h6>
+                            <h3 class="font-weight--reguler mb-30 text-white">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h3>
+                            <div class="hero-button mt-30 mb-20">
+                                <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <div class="processing-hero-images-wrap wow move-up">
+                            <div class="processing-hero-images">
+                                <img class="img-fluid" src="/frontend/assets/images/hero/girl1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============ Infotechno Hero End ============-->
     <!--============ Cybersecurity Hero Start ============-->
-    <div class="cybersecurity-hero processing-hero-bg__color " style="background-image: url('/frontend/assets/images/hero/slider-processing-slide-01-bg.jpg');">
+   {{--  <div class="cybersecurity-hero processing-hero-bg__color " style="background-image: url('/frontend/assets/images/hero/slider-processing-slide-01-bg.jpg');">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <!--baseline-->
                 <div class="col-lg-6 col-md-7">
                     <div class="cybersecurity-hero-text wow move-up">
-                        <h6 class="text-white">Cambridge College Ikeja</h6>
+                        <h6 class="text-white mt-5">Cambridge College Ikeja</h6>
                         <h6 class="text-white">The Best A Level College in Nigeria</h6>
                         <h3 class="font-weight--reguler mb-30 text-white">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h3>
-                        <div class="hero-button mt-30">
+                        <div class="hero-button mt-30 mb-20">
                             <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
                         </div>
                     </div>
@@ -24,14 +49,14 @@
                                 <img class="img-fluid worldRotate" src="/frontend/assets/images/hero/mitech-slider-cybersecurity-global-image.png" alt="">
                             </div>
                             <div class="inner-img-two">
-                                {{-- <img class="img-fluid  ml-5 " src="/frontend/assets/images/hero/pic1.png" alt=""> --}}
+                                <img class="img-fluid  ml-5 " src="/frontend/assets/images/hero/pic1.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--============ Cybersecurity Hero End ============-->
 
  {{--    <div class="section-space--ptb_100 infotechno-section-bg-01">
