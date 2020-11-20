@@ -24,7 +24,7 @@
                                 <img class="img-fluid worldRotate" src="/frontend/assets/images/hero/mitech-slider-cybersecurity-global-image.png" alt="">
                             </div>
                             <div class="inner-img-two">
-                                <img class="img-fluid  ml-5 " src="/frontend/assets/images/hero/pic1.png" alt="">
+                                {{-- <img class="img-fluid  ml-5 " src="/frontend/assets/images/hero/pic1.png" alt=""> --}}
                             </div>
                         </div>
                     </div>
