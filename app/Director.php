@@ -15,7 +15,7 @@ class Director extends Model
 
     public function avatar()
     {
-        if ($this->image() == null) {
+        if ($this->avatar == null) {
             return '/frontend/assets/images/team/team-member-01-370x455.jpg';
         }
         return json_decode($this->avatar)->secure_url;
