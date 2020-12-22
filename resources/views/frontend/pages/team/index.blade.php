@@ -167,7 +167,7 @@
                                         <div class="tab-history-image video-popup mt-30">
                                             {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
                                                 <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="/frontend/assets/images/team/team-member-01-370x455.jpg" alt="">
+                                                    <img class="img-fluid" src="{{ $director->avatar() }}" alt="">
                                                     {{-- <div class="ht-popup-video video-button">
                                                         <div class="video-mark">
                                                             <div class="wave-pulse wave-pulse-1"></div>
@@ -201,7 +201,7 @@
                                         <div class="tab-history-image video-popup mt-30">
                                             {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
                                                 <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="/frontend/assets/images/team/team-member-01-370x455.jpg" alt="">
+                                                    <img class="img-fluid" src="{{ $principal->avatar() }}" alt="">
                                                     {{-- <div class="ht-popup-video video-button">
                                                         <div class="video-mark">
                                                             <div class="wave-pulse wave-pulse-1"></div>
@@ -235,7 +235,7 @@
                                         <div class="tab-history-image video-popup mt-30">
                                             {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
                                                 <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="/frontend/assets/images/team/team-member-01-370x455.jpg" alt="">
+                                                    <img class="img-fluid" src="{{ $coordinator->avatar() }}" alt="">
                                                     {{-- <div class="ht-popup-video video-button">
                                                         <div class="video-mark">
                                                             <div class="wave-pulse wave-pulse-1"></div>

@@ -12,4 +12,12 @@ class Director extends Model
     {
     	return $this->id;
     }
+
+    public function avatar()
+    {
+        if ($this->image() == null) {
+            return '/frontend/assets/images/team/team-member-01-370x455.jpg';
+        }
+        return json_decode($this->avatar)->secure_url;
+    }
 }

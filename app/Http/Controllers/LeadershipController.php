@@ -15,7 +15,7 @@ class LeadershipController extends Controller
     	$director = Director::first();
         $principal = Principal::first();
         $coordinator = Coordinator::first();
-    	$teams =  Team::all();
+    	$teams = Team::all();
 
     	return view('frontend.pages.team.index', compact('teams', 'director', 'principal', 'coordinator'));
     }
