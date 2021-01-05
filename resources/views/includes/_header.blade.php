@@ -44,7 +44,7 @@
                             <!-- brand logo -->
                             <div class="header__logo py-1" style="height: 100px;">
                                 <a href="{{ route('frontend.index') }}">
-                                    <img src="/frontend/assets/images/logo/logo-cci.png" class="" alt="" width="60%" style="height: 80px; width: 200px;">
+                                    <img src="/frontend/assets/images/logo/cambridgelogo.png" class="" alt="" width="60%" style="height: 80px; width: 200px;">
                                 </a>
                             </div>
 

@@ -49,7 +49,6 @@
 
         @yield('content')
 
-
         @include('includes._footer')
 
         <!--====================  scroll top ====================-->
@@ -120,7 +119,17 @@
 
 
 
+
     @include('includes._scripts')
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#myModal').modal('show');
+        });
+        
+        // $('#myModal').on('shown.bs.modal', function () {
+        //     $('#myInput').trigger('focus')
+        // })
+    </script>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-cdf514c9-cbc6-49f0-85a5-514943e911b9"></div>
 

@@ -1,6 +1,9 @@
 @extends('layouts.templatefront')
 
 @section('content')
+<!-- Welcome Modal -->
+@include('includes._welcomemodal')
+<!-- Welcome Modal End -->
         <!--============ Infotechno Hero Start ============-->
         <div class="processing-hero processing-hero-bg">
             <div class="container">
