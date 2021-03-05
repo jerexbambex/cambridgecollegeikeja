@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- breadcrumb-area start -->
-    <div class="breadcrumb-area">
+    <div class="breadcrumb-area" style="background: url({{asset('admin/dist-assets/images/ct1.JPG')}})">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -130,7 +130,7 @@
                                         </a>
                                     </li>
                                     <li class="item">
-                                        <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                        <a href="https://linkedin.com/in/cambridge-college-9b4b30206/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
                                             <i class="fab fa-linkedin link-icon"></i>
                                         </a>
                                     </li>

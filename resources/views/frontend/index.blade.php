@@ -157,12 +157,13 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> and we are known as the <br> Top Sixth Form school <br> in Lagos and Nigeria as a whole.</h3>
+                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> as the  <br> Top 6th Sixth in Lagos and Nigeria.</h3>
 
                                 <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
                                 <div class="inner-button-box section-space--mt_60">
-                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md">Find out more</a>
+                                    <a href="{{ url('blog/apply') }}" class="ht-btn ht-btn-md">Apply Now</a>
+                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md" style="background: : #f1f1f1; color: #086AD8">Learn more</a>
                                 </div>
                         </div>
                     </div>
@@ -216,6 +217,191 @@
     <!--===========  Our Company History Start  End =============-->
 
 
+    <!--===========  feature-large-images-wrapper  Start =============-->
+    <div class="tabs-wrapper  section-space--ptb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
+                        <h6 class="section-sub-title mb-20">Discover Cambridge College Ikeja</h6>
+                        {{-- <h3 class="section-title">We have these to say <span class="text-color-primary">from the best A level School in Nigeria!</span> </h3> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 ht-tab-wrap">
+                    <div class="row">
+                        <div class="col-12 text-center wow move-up ">
+                            <ul class="nav justify-content-center ht-tab-menu" role="tablist">
+                                <li class="tab__item nav-item active">
+                                    <a class="nav-link active" id="nav-tab1" data-toggle="tab" href="#history-tab" role="tab" aria-selected="true">Director's Welcome</a>
+                                </li>
+                                <li class="tab__item nav-item">
+                                    <a class="nav-link" id="nav-tab2" data-toggle="tab" href="#mission-tab" role="tab" aria-selected="false">Principal's Message</a>
+                                </li>
+                                <li class="tab__item nav-item ">
+                                    <a class="nav-link" id="nav-tab3" data-toggle="tab" href="#support-tab" role="tab" aria-selected="false">Co-ordinator's Message</a>
+                                </li>
+                                {{-- <li class="tab__item nav-item ">
+                                    <a class="nav-link" id="nav-tab5" data-toggle="tab" href="#awards-tab" role="tab" aria-selected="false">Our awards</a>
+                                </li> --}}
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-content ht-tab__content wow move-up">
+
+                        <div class="tab-pane fade show active" id="history-tab" role="tabpanel">
+                            <div class="tab-history-wrap section-space--mt_60">
+                                <div class="row">
+                                    <div class="col-lg-5 offset-lg-1 ">
+                                        <div class="tab-history-image video-popup mt-30">
+                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
+                                                <div class="single-popup-wrap">
+                                                    <img class="img-fluid" src="{{ $director->avatar() }}" alt="">
+                                                    {{-- <div class="ht-popup-video video-button">
+                                                        <div class="video-mark">
+                                                            <div class="wave-pulse wave-pulse-1"></div>
+                                                            <div class="wave-pulse wave-pulse-2"></div>
+                                                        </div>
+                                                        <div class="video-button__two">
+                                                            <div class="video-play">
+                                                                <span class="video-play-icon"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div> --}}
+                                                </div>
+                                            {{-- </a> --}}
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="tab-content-inner  mt-30">
+                                            <div class="text mb-30">
+                                                {!! nl2br($director->body) !!}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="mission-tab" role="tabpanel">
+                            <div class="tab-history-wrap section-space--mt_60">
+                                <div class="row">
+                                    <div class="col-lg-5 offset-lg-1 ">
+                                        <div class="tab-history-image video-popup mt-30">
+                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
+                                                <div class="single-popup-wrap">
+                                                    <img class="img-fluid" src="{{ $principal->avatar() }}" alt="">
+                                                    {{-- <div class="ht-popup-video video-button">
+                                                        <div class="video-mark">
+                                                            <div class="wave-pulse wave-pulse-1"></div>
+                                                            <div class="wave-pulse wave-pulse-2"></div>
+                                                        </div>
+                                                        <div class="video-button__two">
+                                                            <div class="video-play">
+                                                                <span class="video-play-icon"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div> --}}
+                                                </div>
+                                            {{-- </a> --}}
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="tab-content-inner  mt-30">
+                                            <div class="text mb-30">
+                                                {!! nl2br($principal->body) !!}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="support-tab" role="tabpanel">
+                            <div class="tab-history-wrap section-space--mt_60">
+                                <div class="row">
+                                    <div class="col-lg-5 offset-lg-1 ">
+                                        <div class="tab-history-image video-popup mt-30">
+                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
+                                                <div class="single-popup-wrap">
+                                                    <img class="img-fluid" src="{{ $coordinator->avatar() }}" alt="">
+                                                    {{-- <div class="ht-popup-video video-button">
+                                                        <div class="video-mark">
+                                                            <div class="wave-pulse wave-pulse-1"></div>
+                                                            <div class="wave-pulse wave-pulse-2"></div>
+                                                        </div>
+                                                        <div class="video-button__two">
+                                                            <div class="video-play">
+                                                                <span class="video-play-icon"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div> --}}
+                                                </div>
+                                            {{-- </a> --}}
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="tab-content-inner  mt-30">
+                                            <div class="text mb-30">
+                                                {!! nl2br($coordinator->body) !!}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- <div class="tab-pane fade" id="awards-tab" role="tabpanel">
+                            <div class="tab-history-wrap section-space--mt_60">
+                                <div class="row">
+                                    <div class="col-lg-6 ">
+                                        <div class="tab-history-image video-popup mt-30">
+                                            <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link">
+                                                <div class="single-popup-wrap">
+                                                    <img class="img-fluid" src="/frontend/assets/images/bg/home-processing-video-intro-slider-slide-01-image-01-570x350.jpg" alt="">
+                                                    <div class="ht-popup-video video-button">
+                                                        <div class="video-mark">
+                                                            <div class="wave-pulse wave-pulse-1"></div>
+                                                            <div class="wave-pulse wave-pulse-2"></div>
+                                                        </div>
+                                                        <div class="video-button__two">
+                                                            <div class="video-play">
+                                                                <span class="video-play-icon"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 offset-lg-1 ">
+                                        <div class="tab-content-inner  mt-30">
+                                            <div class="text mb-30">We’re available for 8 hours a day! <br>Contact to require a detailed analysis and assessment of your plan.</div>
+                                            <ul class="check-list section-space--mb_40">
+                                                <li class="list-item">Receive real-time business analytics </li>
+                                                <li class="list-item">Cross-browser Compatible Design </li>
+                                                <li class="list-item">Completely Gutenberg Ready </li>
+                                                <li class="list-item">Highly Responsive Tools </li>
+                                            </ul>
+
+                                            <div class="tab-button">
+                                                <a class="btn-text" href="#">
+                                                    <span class="button-text">Let's get started <i class="far fa-long-arrow-right"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======== Tabs Wrapper End ======== -->
 
 
 

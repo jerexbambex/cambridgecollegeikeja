@@ -41,7 +41,7 @@
                             <h6 class="sub-title mb-20">Resources</h6>
                             <p>Admission is on now!!!</p>
 
-                            <h3 class="heading">Contact us to get a copy of the <span class="text-color-primary"> Admission form.</span></h3>
+                            <h3 class="heading">Click here to fill out the <span class="text-color-primary"> Admission form.</span></h3>
                             <div class="button mt-30">
                                 {{-- <a href="{{ route('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a> --}}
                                 {{-- <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a> --}}
@@ -53,7 +53,8 @@
                     <div class="resources-right-box">
                         <div class="resources-right-inner text-center">
                             <div class="button mt-30">
-                                <a href="{{ route('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a>
+                                {{-- <a href="{{ route('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a> --}}
+                                <a href="{{ url('frontend.contact') }}" class="ht-btn ht-btn-md">Contact us now</a>
                                 {{-- <a href="{{ $form->avatar ? json_decode($form->avatar)->secure_url : '#' }}" class="ht-btn ht-btn-md">Download now ({{ $form->avatar ? round(json_decode($form->avatar)->bytes / 1024) : '#' }} KB)</a> --}}
                             </div>
                             <div class="resources-images">

@@ -5,7 +5,8 @@
 
         <!-- jQuery JS -->
         <script src="/frontend/assets/js/vendor/jquery-3.3.1.min.js"></script>
-
+        <!-- Popper .js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" defer=""></script>
         <!-- Bootstrap JS -->
         <script src="/frontend/assets/js/vendor/bootstrap.min.js"></script>
 
