@@ -62,32 +62,39 @@
     </div> --}}
     <!--============ Cybersecurity Hero End ============-->
 
- {{--    <div class="section-space--ptb_100 infotechno-section-bg-01">
+    <div class="section-space--ptb_100 infotechno-section-bg-01">
 
         <div class="our-experience-wrapper">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-12 text-center">
                         <div class="section-title small-mb__40 tablet-mb__40">
-                            <h3 class="heading">Our <span class="text-color-primary">History</span></h3>
-                            <p class="text mt-20">{!! Str::limit(nl2br($about->body), 700) !!}</p>
+                            <h3 class="heading">Watch Our <span class="text-color-primary">Video</span></h3>
+                            {{-- <p class="text mt-20">{!! Str::limit(nl2br($about->body), 700) !!}</p> --}}
 
-                            <div class="sider-title-button-box mt-30">
-                                <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Find out more</a>
-                            </div>
+                            <div class="rv-video-section align-items-center p-2">
+                                
+                                
+                                <video width="100%" autoplay="on" controls>
+                                    <source src="https://cambridgecollegeikeja.com/blog/wp-content/uploads/2021/03/Home-Page-Video.mp4?_=1" type="video/mp4">
+                                    </video>
+                                    
+                                    
+                                    
+                                    {{-- <img src="/frontend/assets/images/cambridge/animat-lightbulb-color.gif" class="img-fluid"> --}}
+                                    
+                                </div>
+                                <div class="sider-title-button-box mt-30">
+                                    <a href="/blog/apply" class="ht-btn ht-btn-md">Enroll Now</a>
+                                </div>
 
                         </div>
                     </div>
 
-                    <div class="col-md-5 align-items-center">
-                        <div class="rv-video-section align-items-center p-2">
-                            <img src="/frontend/assets/images/cambridge/animat-lightbulb-color.gif" class="img-fluid">
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 
 
     <!--===========  feature-images-wrapper  Start =============-->
