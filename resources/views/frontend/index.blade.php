@@ -170,7 +170,7 @@
 
                                 <div class="inner-button-box section-space--mt_60">
                                     <a href="{{ url('blog/apply') }}" class="ht-btn ht-btn-md">Apply Now</a>
-                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md" style="background: : #f1f1f1; color: #086AD8">Learn more</a>
+                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md" style="background: #f1f1f1; color: #086AD8">Learn more</a>
                                 </div>
                         </div>
                     </div>
