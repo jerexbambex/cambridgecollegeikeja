@@ -60,25 +60,8 @@
                                             <li class="{{ Request::is('/about') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.about') }}"><span>About</span></a>
                                             </li>
-<<<<<<< HEAD
-                                            {{-- <li class="{{ Request::is('/why-us') ? 'active' : '' }}">
-                                                <a href="{{ route('frontend.why') }}"><span>Why us</span></a>
-                                            </li> --}}
-                                            <li>
-
-                                                <div class="">
-                                                    <button type="button" class="btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</button>
-                                                    <div class="dropdown-menu" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
-                                                        <a class="dropdown-item" href="{{ route('frontend.why') }}">Why Us</a>
-                                                        <a class="dropdown-item" href="{{ route('frontend.leadership') }}">Leadership</a>
-                                                        <a class="dropdown-item" href="#">Facilities</a>
-                                                        <a class="dropdown-item" href="#">Scholarships</a>
-                                                    </div>
-                                                </div>
-=======
                                             <li class="\">
                                                 <a href="{{ url('/blog') }}"><span>Blog</span></a>
->>>>>>> 55d17ae45fb20feb9aa1608d6b47b01acfb0345e
                                             </li>
                                            
                                             <li class="{{ Request::is('/programs*') ? 'active' : '' }}">
