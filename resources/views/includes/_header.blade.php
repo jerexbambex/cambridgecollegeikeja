@@ -83,11 +83,7 @@
 
 
                                             <li class="{{ Request::is('/contact-us') ? 'active' : '' }}">
-<<<<<<< HEAD
-                                                <a href="{{ url('blog/apply') }}" class="btn btn-primary"><span>Apply</span></a>
-=======
                                                 <a href="{{ url('blog/apply') }}" class="btn pl-4 pr-4 pb-4 btn-primary text-white"><span>Apply</span></a>
->>>>>>> 55d17ae45fb20feb9aa1608d6b47b01acfb0345e
                                             </li>
                                         </ul>
                                     </nav>
