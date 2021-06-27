@@ -164,7 +164,7 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> as the  <br> Top 6th Sixth in Lagos and Nigeria.</h3>
+                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> as the  <br> Top Sixth form college and high school in Lagos and Nigeria.</h3>
 
                                 <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
