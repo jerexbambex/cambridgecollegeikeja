@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="CQv22AZODJOBN1gpO5rBMsRue1-UIJYU5tkY4AkxCTs" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cambridge College Ikeja- A-level college in Lagos Nigeria</title>
+    <title>{{ $title ?? "Cambridge College: Best Sixth Form College in Lagos, Nigeria" }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
