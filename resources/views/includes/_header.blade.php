@@ -26,7 +26,7 @@
                                     </li>
                                     <li class="info-item">
                                         <i class="info-icon fa fa-map-marker-alt"></i>
-                                        <span class="info-text">64 Adekunle Fajuyi Way G.R.A. Ikeja Lagos</span>
+                                        <span class="info-text">41B Ladoke Akintola Way Ikeja GRA, Lagos</span>
                                     </li>
                                 </ul>
                             </div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="header-bottom-wrap header-sticky bg-white" style="border-top: 4px solid #072b83;">
             <div class="container">
                 <div class="row">
@@ -60,30 +60,23 @@
                                             <li class="{{ Request::is('/about') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.about') }}"><span>About</span></a>
                                             </li>
-                                            <li class="\">
-                                                <a href="{{ url('/blog') }}"><span>Blog</span></a>
+                                            <li class="{{ Request::is('/why-us') ? 'active' : '' }}">
+                                                <a href="{{ route('frontend.why') }}"><span>Why us</span></a>
                                             </li>
-                                           
                                             <li class="{{ Request::is('/programs*') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.programs') }}"><span>Programmes</span></a>
                                             </li>
-                                            {{-- <li class="{{ Request::is('/events') ? 'active' : '' }}">
+                                            <li class="{{ Request::is('/events') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.event') }}"><span>Events</span></a>
-                                            </li> --}}
+                                            </li>
                                             <li class="{{ Request::is('/gallery') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.gallery') }}"><span>Gallery</span></a>
                                             </li>
-                                            {{-- <li class="{{ Request::is('/leadership*') ? 'active' : '' }}">
+                                            <li class="{{ Request::is('/leadership*') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.leadership') }}"><span>Leadership</span></a>
-                                            </li> --}}
+                                            </li>
                                             <li class="{{ Request::is('/contact-us') ? 'active' : '' }}">
                                                 <a href="{{ route('frontend.contact') }}"><span>Contact</span></a>
-                                            </li>
-
-
-
-                                            <li class="{{ Request::is('/contact-us') ? 'active' : '' }}">
-                                                <a href="{{ url('blog/apply') }}" class="btn pl-4 pr-4 pb-4 btn-primary text-white"><span>Apply</span></a>
                                             </li>
                                         </ul>
                                     </nav>

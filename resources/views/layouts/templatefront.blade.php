@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="CQv22AZODJOBN1gpO5rBMsRue1-UIJYU5tkY4AkxCTs" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ $title ?? "Cambridge College: Best Sixth Form College in Lagos, Nigeria" }}</title>
+    <title>Cambridge College Ikeja- A-level college in Lagos Nigeria</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -97,7 +97,7 @@
                                 <a href="{{ route('frontend.programs') }}"><span>Programs</span></a>
                             </li>
                             <li class="">
-                                {{-- <a href="{{ route('frontend.event') }}">Events</a> --}}
+                                <a href="{{ route('frontend.event') }}">Events</a>
                             </li>
                             <li class="">
                                 <a href="{{ route('frontend.gallery') }}">Gallery</a>
@@ -130,6 +130,8 @@
         //     $('#myInput').trigger('focus')
         // })
     </script>
+    <!-- StackWhats.com widget code --> 
+    <script async src='https://stackwhats.com/pixel/adf6cc5de01cfc78de1fb6287b83c6'></script>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-cdf514c9-cbc6-49f0-85a5-514943e911b9"></div>
 

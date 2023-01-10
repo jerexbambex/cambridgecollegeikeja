@@ -4,32 +4,32 @@
 <!-- Welcome Modal -->
 @include('includes._welcomemodal')
 <!-- Welcome Modal End -->
-        <!--============ Infotechno Hero Start ============-->
-        <div class="processing-hero processing-hero-bg">
-            <div class="container">
-                <div class="row align-items-center">
-                    <!--baseline-->
-                    <div class="col-lg-8 col-md-7">
-                        <div class="processing-hero-text wow move-up">
-                            <h6 class="text-white mt-5">Cambridge College Ikeja</h6>
-                            <h6 class="text-white">The Best A Level College in Nigeria</h6>
-                            <h3 class="font-weight--reguler mb-30 text-white">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h3>
-                            <div class="hero-button mt-30 mb-20">
-                                <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
-                            </div>
+    <!--============ Infotechno Hero Start ============-->
+    <div class="processing-hero processing-hero-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--baseline-->
+                <div class="col-lg-8 col-md-7">
+                    <div class="processing-hero-text wow move-up">
+                        <h6 class="text-white mt-5">Cambridge College Ikeja</h6>
+                        <h6 class="text-white">The Best A Level College in Nigeria</h6>
+                        <h3 class="font-weight--reguler mb-30 text-white">We inculcate in our students <span class="text-color-secondary">skills acquisition</span> with <span class="text-color-secondary">academic</span> activities to help achieve excellence in A Levels.</h3>
+                        <div class="hero-button mt-30 mb-20">
+                            <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Dig deeper now </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-5">
-                        <div class="processing-hero-images-wrap wow move-up">
-                            <div class="processing-hero-images">
-                                <img class="img-fluid" src="/frontend/assets/images/hero/girl1.png" alt="">
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="processing-hero-images-wrap wow move-up">
+                        <div class="processing-hero-images">
+                            <img class="img-fluid" src="/frontend/assets/images/hero/girl1.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--============ Infotechno Hero End ============-->
+    </div>
+    <!--============ Infotechno Hero End ============-->
     <!--============ Cybersecurity Hero Start ============-->
    {{--  <div class="cybersecurity-hero processing-hero-bg__color " style="background-image: url('/frontend/assets/images/hero/slider-processing-slide-01-bg.jpg');">
         <div class="container-fluid">
@@ -62,39 +62,32 @@
     </div> --}}
     <!--============ Cybersecurity Hero End ============-->
 
-    <div class="section-space--ptb_100 infotechno-section-bg-01">
+ {{--    <div class="section-space--ptb_100 infotechno-section-bg-01">
 
         <div class="our-experience-wrapper">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-6">
                         <div class="section-title small-mb__40 tablet-mb__40">
-                            <h3 class="heading">Watch Our <span class="text-color-primary">Video</span></h3>
-                            {{-- <p class="text mt-20">{!! Str::limit(nl2br($about->body), 700) !!}</p> --}}
+                            <h3 class="heading">Our <span class="text-color-primary">History</span></h3>
+                            <p class="text mt-20">{!! Str::limit(nl2br($about->body), 700) !!}</p>
 
-                            <div class="rv-video-section align-items-center p-2">
-                                
-                                
-                                <video width="100%" autoplay="on" controls>
-                                    <source src="https://cambridgecollegeikeja.com/blog/wp-content/uploads/2021/03/Home-Page-Video.mp4?_=1" type="video/mp4">
-                                    </video>
-                                    
-                                    
-                                    
-                                    {{-- <img src="/frontend/assets/images/cambridge/animat-lightbulb-color.gif" class="img-fluid"> --}}
-                                    
-                                </div>
-                                <div class="sider-title-button-box mt-30">
-                                    <a href="/blog/apply" class="ht-btn ht-btn-md">Enroll Now</a>
-                                </div>
+                            <div class="sider-title-button-box mt-30">
+                                <a href="{{ route('frontend.about') }}" class="ht-btn ht-btn-md">Find out more</a>
+                            </div>
 
                         </div>
                     </div>
 
+                    <div class="col-md-5 align-items-center">
+                        <div class="rv-video-section align-items-center p-2">
+                            <img src="/frontend/assets/images/cambridge/animat-lightbulb-color.gif" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
     <!--===========  feature-images-wrapper  Start =============-->
@@ -140,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                    @endforeach     
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -164,13 +157,12 @@
                     <div class="faq-custom-col">
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Cambridge College Ikeja</h6>
-                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> as the  <br> Top Sixth form college and high school in Lagos and Nigeria.</h3>
+                            <h3 class="heading">We’ve been excelling <br> for over <span class="text-color-primary"> 20 years</span> and we are known as the <br> Top Sixth Form school <br> in Lagos and Nigeria as a whole.</h3>
 
                                 <p class="text mt-30" style="font-size: 20px;">Cambridge College is full of exceptional students who believe they can make meaningful contributions to society – and they can. We are more than two decades in existence and have produced several first class alumni who have either graduated or are presently in different fields of studies in Ivy league universities around the globe.</p>
 
                                 <div class="inner-button-box section-space--mt_60">
-                                    <a href="{{ url('blog/apply') }}" class="ht-btn ht-btn-md">Apply Now</a>
-                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md" style="background: #f1f1f1; color: #086AD8">Learn more</a>
+                                    <a href="{{ route('frontend.why') }}" class="ht-btn ht-btn-md">Find out more</a>
                                 </div>
                         </div>
                     </div>
@@ -224,191 +216,6 @@
     <!--===========  Our Company History Start  End =============-->
 
 
-    <!--===========  feature-large-images-wrapper  Start =============-->
-    <div class="tabs-wrapper  section-space--ptb_100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                        <h6 class="section-sub-title mb-20">Discover Cambridge College Ikeja</h6>
-                        {{-- <h3 class="section-title">We have these to say <span class="text-color-primary">from the best A level School in Nigeria!</span> </h3> --}}
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 ht-tab-wrap">
-                    <div class="row">
-                        <div class="col-12 text-center wow move-up ">
-                            <ul class="nav justify-content-center ht-tab-menu" role="tablist">
-                                <li class="tab__item nav-item active">
-                                    <a class="nav-link active" id="nav-tab1" data-toggle="tab" href="#history-tab" role="tab" aria-selected="true">Director's Welcome</a>
-                                </li>
-                                <li class="tab__item nav-item">
-                                    <a class="nav-link" id="nav-tab2" data-toggle="tab" href="#mission-tab" role="tab" aria-selected="false">Principal's Message</a>
-                                </li>
-                                <li class="tab__item nav-item ">
-                                    <a class="nav-link" id="nav-tab3" data-toggle="tab" href="#support-tab" role="tab" aria-selected="false">Co-ordinator's Message</a>
-                                </li>
-                                {{-- <li class="tab__item nav-item ">
-                                    <a class="nav-link" id="nav-tab5" data-toggle="tab" href="#awards-tab" role="tab" aria-selected="false">Our awards</a>
-                                </li> --}}
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="tab-content ht-tab__content wow move-up">
-
-                        <div class="tab-pane fade show active" id="history-tab" role="tabpanel">
-                            <div class="tab-history-wrap section-space--mt_60">
-                                <div class="row">
-                                    <div class="col-lg-5 offset-lg-1 ">
-                                        <div class="tab-history-image video-popup mt-30">
-                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
-                                                <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="{{ $director->avatar() }}" alt="">
-                                                    {{-- <div class="ht-popup-video video-button">
-                                                        <div class="video-mark">
-                                                            <div class="wave-pulse wave-pulse-1"></div>
-                                                            <div class="wave-pulse wave-pulse-2"></div>
-                                                        </div>
-                                                        <div class="video-button__two">
-                                                            <div class="video-play">
-                                                                <span class="video-play-icon"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div> --}}
-                                                </div>
-                                            {{-- </a> --}}
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="tab-content-inner  mt-30">
-                                            <div class="text mb-30">
-                                                {!! nl2br($director->body) !!}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="mission-tab" role="tabpanel">
-                            <div class="tab-history-wrap section-space--mt_60">
-                                <div class="row">
-                                    <div class="col-lg-5 offset-lg-1 ">
-                                        <div class="tab-history-image video-popup mt-30">
-                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
-                                                <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="{{ $principal->avatar() }}" alt="">
-                                                    {{-- <div class="ht-popup-video video-button">
-                                                        <div class="video-mark">
-                                                            <div class="wave-pulse wave-pulse-1"></div>
-                                                            <div class="wave-pulse wave-pulse-2"></div>
-                                                        </div>
-                                                        <div class="video-button__two">
-                                                            <div class="video-play">
-                                                                <span class="video-play-icon"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div> --}}
-                                                </div>
-                                            {{-- </a> --}}
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="tab-content-inner  mt-30">
-                                            <div class="text mb-30">
-                                                {!! nl2br($principal->body) !!}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="support-tab" role="tabpanel">
-                            <div class="tab-history-wrap section-space--mt_60">
-                                <div class="row">
-                                    <div class="col-lg-5 offset-lg-1 ">
-                                        <div class="tab-history-image video-popup mt-30">
-                                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link"> --}}
-                                                <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="{{ $coordinator->avatar() }}" alt="">
-                                                    {{-- <div class="ht-popup-video video-button">
-                                                        <div class="video-mark">
-                                                            <div class="wave-pulse wave-pulse-1"></div>
-                                                            <div class="wave-pulse wave-pulse-2"></div>
-                                                        </div>
-                                                        <div class="video-button__two">
-                                                            <div class="video-play">
-                                                                <span class="video-play-icon"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div> --}}
-                                                </div>
-                                            {{-- </a> --}}
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="tab-content-inner  mt-30">
-                                            <div class="text mb-30">
-                                                {!! nl2br($coordinator->body) !!}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- <div class="tab-pane fade" id="awards-tab" role="tabpanel">
-                            <div class="tab-history-wrap section-space--mt_60">
-                                <div class="row">
-                                    <div class="col-lg-6 ">
-                                        <div class="tab-history-image video-popup mt-30">
-                                            <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link">
-                                                <div class="single-popup-wrap">
-                                                    <img class="img-fluid" src="/frontend/assets/images/bg/home-processing-video-intro-slider-slide-01-image-01-570x350.jpg" alt="">
-                                                    <div class="ht-popup-video video-button">
-                                                        <div class="video-mark">
-                                                            <div class="wave-pulse wave-pulse-1"></div>
-                                                            <div class="wave-pulse wave-pulse-2"></div>
-                                                        </div>
-                                                        <div class="video-button__two">
-                                                            <div class="video-play">
-                                                                <span class="video-play-icon"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 offset-lg-1 ">
-                                        <div class="tab-content-inner  mt-30">
-                                            <div class="text mb-30">We’re available for 8 hours a day! <br>Contact to require a detailed analysis and assessment of your plan.</div>
-                                            <ul class="check-list section-space--mb_40">
-                                                <li class="list-item">Receive real-time business analytics </li>
-                                                <li class="list-item">Cross-browser Compatible Design </li>
-                                                <li class="list-item">Completely Gutenberg Ready </li>
-                                                <li class="list-item">Highly Responsive Tools </li>
-                                            </ul>
-
-                                            <div class="tab-button">
-                                                <a class="btn-text" href="#">
-                                                    <span class="button-text">Let's get started <i class="far fa-long-arrow-right"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--======== Tabs Wrapper End ======== -->
 
 
 
@@ -434,21 +241,21 @@
                             </div>
                             <h6 class="heading font-weight--reguler">Reach out now!</h6>
                             <h5 class="call-us">
-                                <a href="tel:+2347055555801">+2347 05 555 5801</a>, 
-                                <a href="tel:+2347055555802">+2347 05 555 5802</a>, 
+                                <a href="tel:+2347055555801">+2347 05 555 5801</a>,
+                                <a href="tel:+2347055555802">+2347 05 555 5802</a>,
                                 <a href="tel:+2348030961260"> +2348 03 096 1260,</a>
                             </h5>
                             <div class="contact-us-button mt-20">
                                 {{-- <a href="#" class="btn btn--secondary">Contact us</a> --}}
                             </div>
                         </div>
-						
+
 						<div class="contact-info-two text-center">
                             <div class="icon">
                                 <span class="fal fa-envelope"></span>
                             </div>
                             <h6 class="heading font-weight--reguler">Send Us a Message</h6>
-                            <h5 class="call-us"><a href="mailto:info@cambridgecollegeikeja.com">info@cambridgecollegeikeja.com</a></h5>
+                            <h5 class="call-us"><a href="mailto:info@cambridgecollegeikeja.com">info[at]cambridgecollegeikeja.com</a></h5
                             <div class="contact-us-button mt-20">
                                 <a href="{{ route('frontend.contact') }}" class="btn btn--secondary">Contact us</a>
                             </div>
@@ -460,10 +267,4 @@
         </div>
         <!--====================  Conact us Section End  ====================-->
     </div>
-
-
-
-
-
-
 @endsection

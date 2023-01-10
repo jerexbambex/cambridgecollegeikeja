@@ -64,8 +64,8 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="ht-btn btn--white ht-btn-xs" data-dismiss="modal">I know</button>
-                <a href="{{ route('frontend.programs') }}" class="ht-btn btn-primary ht-btn-xs">
-                    Go to Programs
+                <a href="{{ route('frontend.event') }}" class="ht-btn btn-primary ht-btn-xs">
+                    Go to Events page
                     <span class="btn-icon"><i class="far fa-arrow-right"></i></span>
                 </a>
             </div>

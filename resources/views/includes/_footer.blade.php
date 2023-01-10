@@ -8,8 +8,8 @@
                                 <img src="/frontend/assets/images/logo/logo-cci.png" class="" alt="" style="height: 80px; width: 200px;">
                             </div>
                             <ul class="footer-widget__list" style="font-size: 18px;">
-                                <li>64 Adekunle Fajuyi Way G.R.A. Ikeja, Lagos</li>
-                                <li><a href="mailto:info@cambridgecollegeikeja.com" class="hover-style-link">info@cambridgecollegeikeja.com</a></li>
+                                <li>41B Ladoke Akintola Way Ikeja GRA, Lagos</li>
+                                <li><a href="mailto:info@cambridgecollegeikeja.com" class="hover-style-link">info[at]cambridgecollegeikeja.com</a></li>
                                 <li>
                                     <a href="tel:+2347055555801" class="hover-style-link text-black font-weight--bold">07055555801, </a>
                                     <a href="tel:+2347055555802" class="hover-style-link text-black font-weight--bold"> 07055555802, </a>
