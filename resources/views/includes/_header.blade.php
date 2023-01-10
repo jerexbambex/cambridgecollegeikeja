@@ -21,7 +21,7 @@
                                     <li class="info-item">
                                         <a href="mailto:info@cambridgecollegeikeja.com" class="info-link">
                                             <i class="info-icon fa fa-comment-alt-lines"></i>
-                                            <span class="info-text">info@cambridgecollegeikeja.com</span>
+                                            <span class="info-text">info[at]cambridgecollegeikeja.com</span>
                                         </a>
                                     </li>
                                     <li class="info-item">
